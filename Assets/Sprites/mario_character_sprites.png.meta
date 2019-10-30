@@ -1,0 +1,3991 @@
+fileFormatVersion: 2
+guid: 7abd100887e214a3b99e2e0e39e905b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8335922725802122204
+    second: mario_character_sprites_0
+  - first:
+      213: -3756368615351018368
+    second: mario_character_sprites_1
+  - first:
+      213: 4424039163964510446
+    second: mario_character_sprites_2
+  - first:
+      213: 3214501368339334531
+    second: mario_character_sprites_3
+  - first:
+      213: -323383710883396654
+    second: mario_character_sprites_4
+  - first:
+      213: 6817035512523416551
+    second: mario_character_sprites_5
+  - first:
+      213: -1841988631871574545
+    second: mario_character_sprites_6
+  - first:
+      213: -6631524206387162157
+    second: mario_character_sprites_7
+  - first:
+      213: -878629800771433058
+    second: mario_character_sprites_8
+  - first:
+      213: 2617768867880178747
+    second: mario_character_sprites_9
+  - first:
+      213: 4410228814679768119
+    second: mario_character_sprites_10
+  - first:
+      213: 6305924198051902775
+    second: mario_character_sprites_11
+  - first:
+      213: 1042150979245151931
+    second: mario_character_sprites_12
+  - first:
+      213: -4414091448215299349
+    second: mario_character_sprites_13
+  - first:
+      213: -7353036051000264164
+    second: mario_character_sprites_14
+  - first:
+      213: 3375045657959221201
+    second: mario_character_sprites_15
+  - first:
+      213: -1193542061891696703
+    second: mario_character_sprites_16
+  - first:
+      213: 8510877325566448388
+    second: mario_character_sprites_17
+  - first:
+      213: 2592917296100567605
+    second: mario_character_sprites_18
+  - first:
+      213: 5415437665554935751
+    second: mario_character_sprites_19
+  - first:
+      213: -8555976129379886385
+    second: mario_character_sprites_20
+  - first:
+      213: 1761129506277827455
+    second: mario_character_sprites_21
+  - first:
+      213: 9189896268724300544
+    second: mario_character_sprites_22
+  - first:
+      213: -2857986845046958249
+    second: mario_character_sprites_23
+  - first:
+      213: -4330231987221465857
+    second: mario_character_sprites_24
+  - first:
+      213: -5636391649848487765
+    second: mario_character_sprites_25
+  - first:
+      213: 8891882400839693406
+    second: mario_character_sprites_26
+  - first:
+      213: 560101069063811505
+    second: mario_character_sprites_27
+  - first:
+      213: 357403119627996098
+    second: mario_character_sprites_28
+  - first:
+      213: 2054147732941563049
+    second: mario_character_sprites_29
+  - first:
+      213: 7843776076276063337
+    second: mario_character_sprites_30
+  - first:
+      213: -3987811418036572061
+    second: mario_character_sprites_31
+  - first:
+      213: 7031854557592183219
+    second: mario_character_sprites_32
+  - first:
+      213: 7277911889756815592
+    second: mario_character_sprites_33
+  - first:
+      213: 7380824586714069310
+    second: mario_character_sprites_34
+  - first:
+      213: 8243802139997428342
+    second: mario_character_sprites_35
+  - first:
+      213: -7884660144472075852
+    second: mario_character_sprites_36
+  - first:
+      213: 1753812952503630643
+    second: mario_character_sprites_37
+  - first:
+      213: -4083563920097574447
+    second: mario_character_sprites_38
+  - first:
+      213: -4324382567564907888
+    second: mario_character_sprites_39
+  - first:
+      213: -7625325723649135597
+    second: mario_character_sprites_40
+  - first:
+      213: 3705900258296961100
+    second: mario_character_sprites_41
+  - first:
+      213: 2344181461718444357
+    second: mario_character_sprites_42
+  - first:
+      213: 2488735833466937441
+    second: mario_character_sprites_43
+  - first:
+      213: -5194525971700632684
+    second: mario_character_sprites_44
+  - first:
+      213: 5412130473853785175
+    second: mario_character_sprites_45
+  - first:
+      213: -5830978958372695924
+    second: mario_character_sprites_46
+  - first:
+      213: -757582032823352183
+    second: mario_character_sprites_47
+  - first:
+      213: 3893700282969231553
+    second: mario_character_sprites_48
+  - first:
+      213: -7160153406904198044
+    second: mario_character_sprites_49
+  - first:
+      213: -8490440697397040308
+    second: mario_character_sprites_50
+  - first:
+      213: -2461370743516095714
+    second: mario_character_sprites_51
+  - first:
+      213: -4786586347511647513
+    second: mario_character_sprites_52
+  - first:
+      213: 2515235703316256473
+    second: mario_character_sprites_53
+  - first:
+      213: -7016354947216307433
+    second: mario_character_sprites_54
+  - first:
+      213: -548883907048031478
+    second: mario_character_sprites_55
+  - first:
+      213: 6477361780314894197
+    second: mario_character_sprites_56
+  - first:
+      213: -6071860422240473003
+    second: mario_character_sprites_57
+  - first:
+      213: -1009786288002092738
+    second: mario_character_sprites_58
+  - first:
+      213: -489881506302223402
+    second: mario_character_sprites_59
+  - first:
+      213: 7847116336383671958
+    second: mario_character_sprites_60
+  - first:
+      213: 3496922771873097095
+    second: mario_character_sprites_61
+  - first:
+      213: 3782616836639147573
+    second: mario_character_sprites_62
+  - first:
+      213: 2188862370303117932
+    second: mario_character_sprites_63
+  - first:
+      213: -9050980456895121718
+    second: mario_character_sprites_64
+  - first:
+      213: 5424413156336081642
+    second: mario_character_sprites_65
+  - first:
+      213: -4042427305214569709
+    second: mario_character_sprites_66
+  - first:
+      213: -441632240362243242
+    second: mario_character_sprites_67
+  - first:
+      213: -8574255278873165717
+    second: mario_character_sprites_68
+  - first:
+      213: 8233292228574878672
+    second: mario_character_sprites_69
+  - first:
+      213: 8379698196340578036
+    second: mario_character_sprites_70
+  - first:
+      213: 2062149896737300425
+    second: mario_character_sprites_71
+  - first:
+      213: -5186340313572334825
+    second: mario_character_sprites_72
+  - first:
+      213: -2722779919088655530
+    second: mario_character_sprites_73
+  - first:
+      213: -8324662472727470817
+    second: mario_character_sprites_74
+  - first:
+      213: -3412265905663462109
+    second: mario_character_sprites_75
+  - first:
+      213: -3552322157668648668
+    second: mario_character_sprites_76
+  - first:
+      213: -5901062880187512662
+    second: mario_character_sprites_77
+  - first:
+      213: -6642920280091823755
+    second: mario_character_sprites_78
+  - first:
+      213: 6809537218957059116
+    second: mario_character_sprites_79
+  - first:
+      213: 6972329754018706843
+    second: mario_character_sprites_80
+  - first:
+      213: 5999245203904216720
+    second: mario_character_sprites_81
+  - first:
+      213: 3449068145074566675
+    second: mario_character_sprites_82
+  - first:
+      213: -3386282610578698081
+    second: mario_character_sprites_83
+  - first:
+      213: 1280016717304975071
+    second: mario_character_sprites_84
+  - first:
+      213: 4309673194650632899
+    second: mario_character_sprites_85
+  - first:
+      213: 8814436031442812408
+    second: mario_character_sprites_86
+  - first:
+      213: -91127556484815258
+    second: mario_character_sprites_87
+  - first:
+      213: -7345297947191226705
+    second: mario_character_sprites_88
+  - first:
+      213: -2074224318154540219
+    second: mario_character_sprites_89
+  - first:
+      213: 2484113998365241339
+    second: mario_character_sprites_90
+  - first:
+      213: -8969353517675165216
+    second: mario_character_sprites_91
+  - first:
+      213: 458725341593847322
+    second: mario_character_sprites_92
+  - first:
+      213: 5134306269649020948
+    second: mario_character_sprites_93
+  - first:
+      213: 724557122466156436
+    second: mario_character_sprites_94
+  - first:
+      213: -180296676740237400
+    second: mario_character_sprites_95
+  - first:
+      213: -7133643154030998372
+    second: mario_character_sprites_96
+  - first:
+      213: -3056730082575158468
+    second: mario_character_sprites_97
+  - first:
+      213: -4933227270634172441
+    second: mario_character_sprites_98
+  - first:
+      213: 3286164924134804544
+    second: mario_character_sprites_99
+  - first:
+      213: 8574145656531954776
+    second: mario_character_sprites_100
+  - first:
+      213: -334325836337952148
+    second: mario_character_sprites_101
+  - first:
+      213: 4628328935643051327
+    second: mario_character_sprites_102
+  - first:
+      213: 6770631344824510600
+    second: mario_character_sprites_103
+  - first:
+      213: -2013830728323386684
+    second: mario_character_sprites_104
+  - first:
+      213: 4267940808807095927
+    second: mario_character_sprites_105
+  - first:
+      213: -8479884468155892002
+    second: mario_character_sprites_106
+  - first:
+      213: 7512781556805760838
+    second: mario_character_sprites_107
+  - first:
+      213: 4558126854947091922
+    second: mario_character_sprites_108
+  - first:
+      213: -2647887016096539864
+    second: mario_character_sprites_109
+  - first:
+      213: 1935622691439034915
+    second: mario_character_sprites_110
+  - first:
+      213: -4738971941305566315
+    second: mario_character_sprites_111
+  - first:
+      213: -7076290787745587817
+    second: mario_character_sprites_112
+  - first:
+      213: 6014102805741929097
+    second: mario_character_sprites_113
+  - first:
+      213: 6527968915623863015
+    second: mario_character_sprites_114
+  - first:
+      213: 5070577799130053997
+    second: mario_character_sprites_115
+  - first:
+      213: -874968625852167904
+    second: mario_character_sprites_116
+  - first:
+      213: 2583705225232826738
+    second: mario_character_sprites_117
+  - first:
+      213: 5042983249597319277
+    second: mario_character_sprites_118
+  - first:
+      213: -7754450768533572997
+    second: mario_character_sprites_119
+  - first:
+      213: 2480197230104721325
+    second: mario_character_sprites_120
+  - first:
+      213: 1743333303065774243
+    second: mario_character_sprites_121
+  - first:
+      213: -3010009311077373716
+    second: mario_character_sprites_122
+  - first:
+      213: 5538478841081457998
+    second: mario_character_sprites_123
+  - first:
+      213: -8627365632654154075
+    second: mario_character_sprites_124
+  - first:
+      213: -5639885194583857394
+    second: mario_character_sprites_125
+  - first:
+      213: 1328482162167151231
+    second: mario_character_sprites_126
+  - first:
+      213: -4602212942053251219
+    second: mario_character_sprites_127
+  - first:
+      213: -2665767833334693458
+    second: mario_character_sprites_128
+  - first:
+      213: 8392466102898472146
+    second: mario_character_sprites_129
+  - first:
+      213: -7465194719090194532
+    second: mario_character_sprites_130
+  - first:
+      213: -3166961691698078686
+    second: mario_character_sprites_131
+  - first:
+      213: 1306417778492981291
+    second: mario_character_sprites_132
+  - first:
+      213: 879335118822662753
+    second: mario_character_sprites_133
+  - first:
+      213: -4394593534103062044
+    second: mario_character_sprites_134
+  - first:
+      213: 6762956703505258350
+    second: mario_character_sprites_135
+  - first:
+      213: -6519789378712138006
+    second: mario_character_sprites_136
+  - first:
+      213: -2119254866850509979
+    second: mario_character_sprites_137
+  - first:
+      213: 1357168170999897468
+    second: mario_character_sprites_138
+  - first:
+      213: -7488154279108670443
+    second: mario_character_sprites_139
+  - first:
+      213: 2620653227937339237
+    second: mario_character_sprites_140
+  - first:
+      213: 132042823647037358
+    second: mario_character_sprites_141
+  - first:
+      213: -2025780278532267619
+    second: mario_character_sprites_142
+  - first:
+      213: 3819180472919724019
+    second: mario_character_sprites_143
+  - first:
+      213: 7398208483565682176
+    second: mario_character_sprites_144
+  - first:
+      213: 5317758762152185801
+    second: mario_character_sprites_145
+  - first:
+      213: 2982370423872197620
+    second: mario_character_sprites_146
+  - first:
+      213: 3232096191311574051
+    second: mario_character_sprites_147
+  - first:
+      213: 2939723912435619763
+    second: mario_character_sprites_148
+  - first:
+      213: 8559197236900723292
+    second: mario_character_sprites_149
+  - first:
+      213: 335405680365251201
+    second: mario_character_sprites_150
+  - first:
+      213: -8785737449136642561
+    second: mario_character_sprites_151
+  - first:
+      213: -2168791571970513856
+    second: mario_character_sprites_152
+  - first:
+      213: 473318138218814020
+    second: mario_character_sprites_153
+  - first:
+      213: -3314600451234537568
+    second: mario_character_sprites_154
+  - first:
+      213: 3330477740893868960
+    second: mario_character_sprites_155
+  - first:
+      213: 8604465525771974354
+    second: mario_character_sprites_156
+  - first:
+      213: -2065998123236452924
+    second: mario_character_sprites_157
+  - first:
+      213: -4071987820477140730
+    second: mario_character_sprites_158
+  - first:
+      213: 7681485164807171457
+    second: mario_character_sprites_159
+  - first:
+      213: 6771089169562424498
+    second: mario_character_sprites_160
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mario_character_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 313
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b9cdf6bb56a4dc8bf0ee24836da8f5
+      internalID: -8335922725802122204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 312
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1931041268fe94e5ebeff97ee1873efe
+      internalID: -3756368615351018368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 313
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f096929f39f094f48b55be533f941978
+      internalID: 4424039163964510446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 312
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6e1db06d66646fc960af46a0737952
+      internalID: 3214501368339334531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 312
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb37e88a79ead490f8ad30f13e0efe4e
+      internalID: -323383710883396654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 312
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d62c1e081834eda8795da2805ef417
+      internalID: 6817035512523416551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 312
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488de524f9e5341e8845d0b643675ad1
+      internalID: -1841988631871574545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 312
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45ea866d2e284bb4bab8ad8f644009e
+      internalID: -6631524206387162157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 312
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5c5ed305d0c416e8ef8516b29a00f4
+      internalID: -878629800771433058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 313
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40b736d773014c28b6a89e9537ad492
+      internalID: 2617768867880178747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 312
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c87b6313251348b08a96cc399a67914
+      internalID: 4410228814679768119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 313
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6094c47ed97f64ee6b273a9698f8bd6e
+      internalID: 6305924198051902775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 312
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713af6a860eb543848bf0d06804542dc
+      internalID: 1042150979245151931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 312
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3385170607534b1fadb03fa0a505652
+      internalID: -4414091448215299349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 312
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be68f811a80b428abe0bfa47865d1d8
+      internalID: -7353036051000264164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_15
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 312
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda1dde45931144e993b032705f0dd1b
+      internalID: 3375045657959221201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 312
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49ec62cb4b8a4339a1230ac2b0fee90
+      internalID: -1193542061891696703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 312
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41353bbc26a8a48f08d54aa4759eea86
+      internalID: 8510877325566448388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 312
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27265505770c740f180655d547862083
+      internalID: 2592917296100567605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 273
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9c5ab492e4e40b994f1c7bcea8b22c
+      internalID: 5415437665554935751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 272
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ef959ec2fc84638ae75ac7ccc058f1
+      internalID: -8555976129379886385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 273
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa650f1f26c3454aab887c16a25facb
+      internalID: 1761129506277827455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 272
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833c6f49335cd4184950d853a16f49c7
+      internalID: 9189896268724300544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 273
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f3e1c8343a44d1f9c12d26892486cb
+      internalID: -2857986845046958249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 272
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67035617569304db1ae151435357679c
+      internalID: -4330231987221465857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 272
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7876b68f292c54b448cdc40c1e709f82
+      internalID: -5636391649848487765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdcc39f91ff74d4c91d62b5de725c0c
+      internalID: 8891882400839693406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe53523dbcab41edbb6596b16269c9a
+      internalID: 560101069063811505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 273
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464af8daea04349cf9d9fdb4eec2f984
+      internalID: 357403119627996098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 272
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cb38000df574956b5c57e3191ef987
+      internalID: 2054147732941563049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_30
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 273
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43b358222b4f406e9bd6985261d466c
+      internalID: 7843776076276063337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_31
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 272
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3a455913a2549d6838efd758b222a7
+      internalID: -3987811418036572061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 272
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af7fecaabb924805a1bc7f1f2aec942
+      internalID: 7031854557592183219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_33
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e2e9c9522224ba2a0f845238795a97
+      internalID: 7277911889756815592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_34
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 272
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105d17cc37fcc4f23939bc9c6becffb6
+      internalID: 7380824586714069310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_35
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 272
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917be787de82944efbbadc6a5c2aedb1
+      internalID: 8243802139997428342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_36
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 272
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44cb3ee5989d4a2a83d359437f51720
+      internalID: -7884660144472075852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_37
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 272
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a75182983b0408cab3f03a9e8bba94
+      internalID: 1753812952503630643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 232
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9078ece21e69d43f39abee0e89f7f0e5
+      internalID: -4083563920097574447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 232
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4707de5ed2ee4082aadc7592cf7e66d
+      internalID: -4324382567564907888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 232
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9aca364f44a4742ac6bc4d6f9906b8
+      internalID: -7625325723649135597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 232
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400ca2508f1c346ca908aad1253bc62e
+      internalID: 3705900258296961100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 232
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e841691e9bfbb4e67b842e46fd843e31
+      internalID: 2344181461718444357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 232
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7253b4d4ada84494912718526d81170
+      internalID: 2488735833466937441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 232
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb3f32075f4b4623b01e43c1f78fd5f
+      internalID: -5194525971700632684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 232
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4ac8451c66b413d9e5616ea5c7bfa3
+      internalID: 5412130473853785175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_46
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 232
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017a1883b23bc49bc903f360f0e2f39a
+      internalID: -5830978958372695924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 232
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18db19c2bb4e4495a9bf26180f8d3b8
+      internalID: -757582032823352183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_48
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 232
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b47d02afee6643ca9e0c530065ce6eb
+      internalID: 3893700282969231553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_49
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 232
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab733821df7be4902abfaae65453c861
+      internalID: -7160153406904198044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_50
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 232
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75380edd28e3846c3a1cf4e12eb6b72a
+      internalID: -8490440697397040308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_51
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 232
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887802a52065d46cc96e422f355ce55d
+      internalID: -2461370743516095714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_52
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 232
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d84571cda4b54545b88844a946a08ab
+      internalID: -4786586347511647513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_53
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 232
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b033e68890f434fe0956f4224b0883db
+      internalID: 2515235703316256473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_54
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 232
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4216b833c1eec48c89a44e68a11f6261
+      internalID: -7016354947216307433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_55
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 232
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f74c869246144ebb9f0940ebd15f433
+      internalID: -548883907048031478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_56
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 232
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf613cf9820347ecb5e7f1017b29262
+      internalID: 6477361780314894197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_57
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 232
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50815c99e0b6f4ed68a4f9a33d422997
+      internalID: -6071860422240473003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_58
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 192
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e1c0634aa604736b2d0278db642a0c
+      internalID: -1009786288002092738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_59
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070004ed1a25f49f6b42b05552679792
+      internalID: -489881506302223402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_60
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 192
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0093733c40c5744adafc2f04130ea4f2
+      internalID: 7847116336383671958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27203238eedb2400abef3d2f460a0dc8
+      internalID: 3496922771873097095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_62
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 192
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0872cbb9aefdc44fe81c844e2f25a270
+      internalID: 3782616836639147573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_63
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a626125cb51941a7ad83e0e014c9369
+      internalID: 2188862370303117932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_64
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 192
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cef1c7433e1423b8f1f86a1eff0008
+      internalID: -9050980456895121718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_65
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7c78844e5244a2eaa73659219336b4
+      internalID: 5424413156336081642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_66
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f071d75117e4d479391e6c7f8cc4bc
+      internalID: -4042427305214569709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096ca36f306e14e9c8152600f731c28f
+      internalID: -441632240362243242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_68
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 192
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2601dfce4cfba40d7944b8bbca2eca14
+      internalID: -8574255278873165717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_69
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 192
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed67f92b257c840f6b59e33858e3a1ee
+      internalID: 8233292228574878672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_70
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 192
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3df56440ba1341449f70809fc60dc5f
+      internalID: 8379698196340578036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_71
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 192
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ae1cc867ef9462ca847470d4ed0af5
+      internalID: 2062149896737300425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_72
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 192
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df18b67ce9634135a1d62d966504a14
+      internalID: -5186340313572334825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_73
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 192
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b628608ae3ff46fd932d0160f2b7a18
+      internalID: -2722779919088655530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_74
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 192
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67a6b6ac9c2548db8400ed23c7771ad
+      internalID: -8324662472727470817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_75
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee2c8061fc344ab19e01d6aad208b6b
+      internalID: -3412265905663462109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_76
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 192
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287cea159721f4a2ebe07ce39125f9bd
+      internalID: -3552322157668648668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_77
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 152
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349bbffa7d9354fe281ede40265a638c
+      internalID: -5901062880187512662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_78
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 152
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17245dc56b42747289c11556403eeb03
+      internalID: -6642920280091823755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_79
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 152
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca86f8d02b3174001b747fa1335d5a26
+      internalID: 6809537218957059116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_80
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 152
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50acf511898514b248c511320772d2c0
+      internalID: 6972329754018706843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_81
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 152
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336fbae049b5c4d0ba7be4c68388b5a4
+      internalID: 5999245203904216720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 152
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ea3bd5bfb1d45489616b2e40ee4056
+      internalID: 3449068145074566675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_83
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 152
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aca5b460f6eb486b95e42478b1c46f1
+      internalID: -3386282610578698081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_84
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 152
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad69e518a8584b2ea319169832f9301
+      internalID: 1280016717304975071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_85
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 152
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c4dcc79bf7e4d75b41ae609bf68ae1
+      internalID: 4309673194650632899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_86
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 152
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de67afa59dfa47938dc587f47b912ce
+      internalID: 8814436031442812408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_87
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 152
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18e008e24afe4f6eb5e7fe32511cec6
+      internalID: -91127556484815258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_88
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 152
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bb9772d2710406594625d20ee169a1
+      internalID: -7345297947191226705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_89
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 152
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e03522374bc242c5a583fb481f5d41d
+      internalID: -2074224318154540219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_90
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 152
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a126f2a7993d468ab2e20c09e6d5c37
+      internalID: 2484113998365241339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_91
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 152
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229e0276bc1c64b18a11e2ae3ec03366
+      internalID: -8969353517675165216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_92
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 152
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4151ba0f894b740518a5741f0ab11631
+      internalID: 458725341593847322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_93
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 152
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da857e31f654f4c88a59ea0902a02d12
+      internalID: 5134306269649020948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_94
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 152
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03930d79dbdfa441291a6d50f5f3f1d0
+      internalID: 724557122466156436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_95
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 152
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28ef10d1569143388ca8ae3488a942f
+      internalID: -180296676740237400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_96
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 152
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868ab787e39d640d8818683aa6c3b981
+      internalID: -7133643154030998372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_97
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 152
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cfa89fc65934d9b847bd66b0e76219
+      internalID: -3056730082575158468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_98
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 152
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7c572b0ea444fe889ee69b3fa5e1d8
+      internalID: -4933227270634172441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_99
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 152
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0366dcc3b834edea778850d793eda4
+      internalID: 3286164924134804544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_100
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 152
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5731972596d54bdcae058476329293e
+      internalID: 8574145656531954776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_101
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 136
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529b0a1ee66244fb3923d425c0b504ef
+      internalID: -334325836337952148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_102
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 136
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f1c813dd36346f497c10a63b999277
+      internalID: 4628328935643051327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_103
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 136
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b609bd26fe87545f0b139a2ad5e97530
+      internalID: 6770631344824510600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 136
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0158413ada2044011aaa4a5b38ead9ef
+      internalID: -2013830728323386684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_105
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 136
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bcc5d0c2ad84aa79fe5d3166af9251
+      internalID: 4267940808807095927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_106
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 136
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3a1551138de43738ec29e2e89c13da
+      internalID: -8479884468155892002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_107
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 136
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6513745c049bb4baf890e90da93f2d52
+      internalID: 7512781556805760838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_108
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 136
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dc0f49dd42f4dacb9c4cdced77976a
+      internalID: 4558126854947091922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_109
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 136
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c12920af8254bbfaac117bcdaeccc3
+      internalID: -2647887016096539864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_110
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 136
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60122c063eef4db880a6cf1b916c616
+      internalID: 1935622691439034915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_111
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 136
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c20fdcad84bd42c783dab066036ba27
+      internalID: -4738971941305566315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_112
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 124
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb94a6c7f4fb048ab9c229a1aafbf4f3
+      internalID: -7076290787745587817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_113
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 122
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c55b257151c4349bbe313c3ff2aa0a
+      internalID: 6014102805741929097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_114
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 122
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af30a4bb98d04f378eb851ca075466c
+      internalID: 6527968915623863015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_115
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 124
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbc11cdd2a0e45bb892bdea119da2dd
+      internalID: 5070577799130053997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_116
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 124
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e779c70beca4642ff815149eddd694b5
+      internalID: -874968625852167904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_117
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 124
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2d39eeffa5b47d69252058fcb5765a
+      internalID: 2583705225232826738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_118
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 122
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24732f7bdb7348b5872bb333c19d2d6
+      internalID: 5042983249597319277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_119
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 89
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9fe2824586344839d13e7d8f42bfe1
+      internalID: -7754450768533572997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_120
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 88
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d2e4862cc1847a69745632419424a8
+      internalID: 2480197230104721325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_121
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 89
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df2d85d2a7144e1aadbba66dccb47f2
+      internalID: 1743333303065774243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_122
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 88
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85f81b4ed97e46459a20806b2a9b790
+      internalID: -3010009311077373716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_123
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 88
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259a181fc0b7f47e1a4a070c6884a3ee
+      internalID: 5538478841081457998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_124
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 88
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402c9e53085454ef4924712a176a818e
+      internalID: -8627365632654154075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_125
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 89
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dadd1c596db5414295482d3c933d0fc
+      internalID: -5639885194583857394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_126
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 88
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6812fe10b62494e9eb6444b5dad6d0be
+      internalID: 1328482162167151231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_127
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 89
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069e72fc259ea409085a2ef9d24aca70
+      internalID: -4602212942053251219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_128
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 88
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c23f3b14025842a3870531255089921
+      internalID: -2665767833334693458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_129
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 89
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b456ad47532e42708a3730bd72a88ef
+      internalID: 8392466102898472146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_130
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 88
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401683d4778f34abd9d5c378d2c02f0e
+      internalID: -7465194719090194532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_131
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 89
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6d72e5695584e20b9f2d5b0d44b360
+      internalID: -3166961691698078686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_132
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 88
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3bb1a21c10845f283e0d31b5ae0f27
+      internalID: 1306417778492981291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_133
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 88
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600c3e60757194f9283d3cd8bdeaf343
+      internalID: 879335118822662753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_134
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 88
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca75aa991c2e34895b31f431c63c6bf3
+      internalID: -4394593534103062044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_135
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 89
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef100613115f3436495c9642284c5df8
+      internalID: 6762956703505258350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_136
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 88
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f4c778e43d545ecad9a9a0d7d3a79c
+      internalID: -6519789378712138006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_137
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 89
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aef13473b57d4487a5b3f199c3221ee
+      internalID: -2119254866850509979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_138
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 88
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e411812850244f4386880bfad2bb3ae
+      internalID: 1357168170999897468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_139
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545d28615516a4731bdc80d1ab75be97
+      internalID: -7488154279108670443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_140
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03da097a951204033bba2d699773afbe
+      internalID: 2620653227937339237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_141
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036cc07bec0e34044b2b263fbcad6bf8
+      internalID: 132042823647037358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_142
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0904ec66d71954fcb95fd63b9ebdb891
+      internalID: -2025780278532267619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_143
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 48
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a183ec28b2d4100b2736688446da1a
+      internalID: 3819180472919724019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_144
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac475ce1cff354829bc9c729aca82ea3
+      internalID: 7398208483565682176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_145
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940d87ae87e034bbc94c67d3671ca183
+      internalID: 5317758762152185801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_146
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39d979640baa47fb903e0bead6d962f
+      internalID: 2982370423872197620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_147
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 48
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c0d16cf127e461b863613d5aea73ae
+      internalID: 3232096191311574051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_148
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b66bd50e49064aa382c10571ed1ff5d
+      internalID: 2939723912435619763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_149
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 48
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d4767c5d57e42b6a9abf6f0808e61d
+      internalID: 8559197236900723292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_150
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 48
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7d010507e1a403488055b967556d7b
+      internalID: 335405680365251201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_151
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 48
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94274ff29e9484302a4031d729ffddec
+      internalID: -8785737449136642561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_152
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 48
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2bd51a809b5486783cf61f72f889cf
+      internalID: -2168791571970513856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_153
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 48
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224a9ba203ae34f0192446d4a3ade959
+      internalID: 473318138218814020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_154
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6742c8771ed5449fa743c5835040bd7
+      internalID: -3314600451234537568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_155
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 8
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da79c53ca768446d39673a40178f683e
+      internalID: 3330477740893868960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_156
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 8
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f4069c765c24140a5beb76c84ccc1b
+      internalID: 8604465525771974354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_157
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 8
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c2c5fee5c5a4b5d89ff341fda9e90e
+      internalID: -2065998123236452924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_158
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 8
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5440a7d1466a54f71bae8871c348e50c
+      internalID: -4071987820477140730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_159
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 8
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369bcd400c07341a9ba59e2708ead0f8
+      internalID: 7681485164807171457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_character_sprites_160
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 8
+        width: 283
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97eafa3e1cf846f9a29fd75ac5dbaa0
+      internalID: 6771089169562424498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 133d6319159984c68848bd7292a7d3bf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
