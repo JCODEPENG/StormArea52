@@ -17,6 +17,8 @@ public class CharacterController : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private float MovementForce = 6000f;
 
+    private GameObject otherPlayer;
+
     private Rigidbody rb;
 
     // Start is called before the first frame update
@@ -24,6 +26,10 @@ public class CharacterController : MonoBehaviour
     {
         // get reference to Rigidbody so we can apply forces to it to move the character around
         rb = GetComponent<Rigidbody>();
+        if (rb == null)
+        {
+            throw new MissingComponentException("Character controller needs a rigidbody");
+        }
     }
 
     // Update is called once per frame
