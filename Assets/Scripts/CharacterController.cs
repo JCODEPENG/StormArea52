@@ -17,8 +17,6 @@ public class CharacterController : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private float MovementForce = 6000f;
 
-    private GameObject otherPlayer;
-
     private Rigidbody rb;
 
     // Start is called before the first frame update
