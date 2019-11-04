@@ -15,9 +15,10 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private KeyCode MoveRightKey = KeyCode.D;
 
     [Header("Movement")]
-    [SerializeField] private float MovementForce = 6000f;
+    [SerializeField] private float MovementForce = 100f;
 
     private Rigidbody rb;
+    private Vector3 CurrentMovementDirection = Vector3.zero;
 
     // Start is called before the first frame update
     void Start()
@@ -33,11 +34,7 @@ public class CharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 movementDirection = GetMovementDirectionFromPlayerInputs();
-        if (movementDirection != Vector3.zero)
-        {
-            rb.AddForce(movementDirection.normalized * MovementForce * Time.deltaTime);
-        }
+        CurrentMovementDirection = GetMovementDirectionFromPlayerInputs();
     }
 
     private Vector3 GetMovementDirectionFromPlayerInputs()
@@ -63,5 +60,14 @@ public class CharacterController : MonoBehaviour
         }
 
         return movementDirection;
+    }
+
+    // Physics updates on FixedUpdate, so apply movement forces here instead of in Update()
+    private void FixedUpdate()
+    {
+        if (CurrentMovementDirection != Vector3.zero)
+        {
+            rb.AddForce(CurrentMovementDirection.normalized * MovementForce);
+        }
     }
 }
