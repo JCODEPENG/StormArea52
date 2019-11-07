@@ -60,4 +60,4 @@ crashlytics-build.properties
 /**_Data/
 
 # DS store
-./DS_Store
+.DS_Store
