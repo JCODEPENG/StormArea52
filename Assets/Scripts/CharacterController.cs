@@ -70,4 +70,6 @@ public class CharacterController : MonoBehaviour
             rb.AddForce(CurrentMovementDirection.normalized * MovementForce);
         }
     }
+
+    public float CurrentMovementSpeed => rb.velocity.magnitude;
 }
