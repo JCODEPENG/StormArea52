@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    [SerializeField] List<GameObject> followingSubjectList;
+    [SerializeField] List<GameObject> followingSubjectList = default;
     [SerializeField] float delay = .9f;
     [SerializeField] float followDistance = 10f;
 
@@ -17,7 +17,6 @@ public class CameraController : MonoBehaviour
         Vector3 pointingDirection = ((this.transform.rotation * Vector3.forward));
 
         offsetBetweenTarget = -pointingDirection * followDistance;
-        //ffsetBetweenTarget = this.transform.position - GetAvgSubjectsPosition();
     }
 
     // Update is called once per frame
@@ -36,8 +35,7 @@ public class CameraController : MonoBehaviour
         followDistance = distance;
 
         Vector3 pointingDirection = ((this.transform.rotation * Vector3.forward));
-        offsetBetweenTarget = -pointingDirection * followDistance;
-
+        offsetBetweenTarget = -pointingDirection * followDistance; 
     }
 
     private Vector3 GetAvgSubjectsPosition()
