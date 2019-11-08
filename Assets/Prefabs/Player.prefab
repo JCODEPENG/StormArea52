@@ -80,7 +80,10 @@ MonoBehaviour:
   MoveLeftKey: 97
   MoveDownKey: 115
   MoveRightKey: 100
+  Throw: 32
   MovementForce: 300
+  Capsule: {fileID: 1417303681116825303, guid: 99a07bc05649df3488f71c8d07b50ddd, type: 3}
+  countText: {fileID: 0}
 --- !u!1 &856200928820738842
 GameObject:
   m_ObjectHideFlags: 0
