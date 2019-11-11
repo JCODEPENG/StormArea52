@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using System;
 //not finished, need a visualization for the timer (ex. text)
 // countdown timer for the stage
 // once the timer reaches 0.0 sec activate fail state
@@ -13,12 +13,14 @@ public class CountdownTimer : MonoBehaviour
     [SerializeField] public Text num ;
 
     private float timer;
+    private string twodig;
     public bool FailState = false;
     // sets the timer to the timer set in unity
     void Start()
     {
         timer = GameTime; 
-        num.GetComponent<Text>().text = timer.ToString();
+        twodig = String.Format("{0:0.00}", timer);
+        num.GetComponent<Text>().text = twodig;
         
         
     }
@@ -37,6 +39,7 @@ public class CountdownTimer : MonoBehaviour
             timer = 0.0f;
             FailState = true;
         }
-       num.GetComponent<Text>().text = timer.ToString();
+        twodig = String.Format("{0:0.00}", timer);
+        num.GetComponent<Text>().text = twodig;
     }
 }
