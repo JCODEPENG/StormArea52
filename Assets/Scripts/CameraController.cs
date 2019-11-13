@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    [SerializeField] List<GameObject> followingSubjectList = default;
     [SerializeField] float delay = .9f;
     [SerializeField] float followDistance = 10f;
 
+    private GameObject[] followingSubjectList;
     private Vector3 offsetBetweenTarget;
     private Vector3 velocity;
 
     // Start is called before the first frame update
     void Start()
     {
+        followingSubjectList = GameObject.FindGameObjectsWithTag("Player");
+        if (followingSubjectList.Length < 1)
+        {
+            Debug.LogWarning("Camera controller has no subjects to follow", this);
+        }
         Vector3 pointingDirection = ((this.transform.rotation * Vector3.forward));
 
         offsetBetweenTarget = -pointingDirection * followDistance;
@@ -47,7 +52,7 @@ public class CameraController : MonoBehaviour
             avgPosition += subject.transform.position;
         }
 
-        avgPosition /= followingSubjectList.Count;
+        avgPosition /= followingSubjectList.Length;
         return avgPosition;
     }
 
