@@ -4,6 +4,16 @@ SFU Surge project
 ## About
 Storm Area 52 is a multiplayer game made in Unity about working together to retreive as much evidence before time runs out.
 
+## Project milestones
+[x] Concept
+[ ] MVP (Minimum viable product)
+[ ] Alpha release
+[ ] Vertical slice
+[ ] Feature complete
+[ ] Beta release
+[ ] Polish
+[ ] Version 1.0 release
+
 ## Dev setup
 Install Unity, clone the repo and open the project.
 
