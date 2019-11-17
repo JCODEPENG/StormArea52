@@ -13,26 +13,46 @@ public class CountdownTimer : MonoBehaviour
     private float timer;
     private string twodig;
     public bool FailState = false;
+
+    public bool TimerActivated = false;
+
     // sets the timer to the timer set in unity
     void Start()
     {
-        timer = GameTime; 
-        twodig = String.Format("{0:0.00}", timer);
-        num.text = twodig;
+        ResetTimer();
+
+        // when game is reset, restart the timer
+        GameStateManager.Instance.RegisterOnStateChange(GameStateManager.GameStates.BEFORE_ENTERING_BASE, ResetTimer);
+
+        // start the timer when the base is entered
+        GameStateManager.Instance.RegisterOnStateChange(GameStateManager.GameStates.BASE_ENTERED, () => TimerActivated = true);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (timer >= 0.0f && FailState == false)
+        if (TimerActivated)
         {
-            timer -= Time.deltaTime;
+            if (timer >= 0.0f && FailState == false)
+            {
+                timer -= Time.deltaTime;
+            }
+            else
+            {
+                timer = 0.0f;
+                FailState = true;
+                GameStateManager.Instance.OnTimeUp();
+            }
+            twodig = String.Format("{0:0.00}", timer);
+            num.text = twodig;
         }
-        else
-        {
-            timer = 0.0f;
-            FailState = true;
-        }
+    }
+
+    private void ResetTimer()
+    {
+        TimerActivated = false;
+        timer = GameTime;
+        FailState = false;
         twodig = String.Format("{0:0.00}", timer);
         num.text = twodig;
     }
