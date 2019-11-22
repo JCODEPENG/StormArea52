@@ -12,7 +12,7 @@ public class TriggerEvent : MonoBehaviour
     [Header("Trigger settings")]
     [SerializeField] private UnityEvent OnTriggerEnterEvent = default;
     [Tooltip("The tag a gameobject has to have to trigger the event. Leave blank for any tag")]
-    [SerializeField] private string RequiredTagToActivate = null;
+    [SerializeField] private string RequiredTagToActivate = "Player";
     [SerializeField] private bool OnlyTriggerOnce = true;
 
     [Header("Debug options")]
@@ -42,7 +42,7 @@ public class TriggerEvent : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    protected void OnTriggerEnter(Collider other)
     {
         // trigger the event if no required tag is specified, or the object that entered the trigger has the required tag
         if (RequiredTagToActivate == null || RequiredTagToActivate.Length < 1 || other.CompareTag(RequiredTagToActivate))

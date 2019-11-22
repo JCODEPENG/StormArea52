@@ -33,7 +33,10 @@ public class Alarm : MonoBehaviour
             throw new MissingComponentException("Image required");
         }
 
-        GameStateManager.Instance.RegisterOnStateChange(GameStateManager.GameStates.GAME_OVER, ActivateAlarm);
+        // sound the alarm when the game is lost
+        GameStateManager.Instance.RegisterOnStateChange(GameStateManager.GameStates.GAME_OVER_LOSE, ActivateAlarm);
+
+        // stop the alarm when the game is reset
         GameStateManager.Instance.RegisterOnStateChange(GameStateManager.GameStates.BEFORE_ENTERING_BASE, DeactivateAlarm);
     }
 

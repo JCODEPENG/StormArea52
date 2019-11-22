@@ -42,6 +42,7 @@ public class CountdownTimer : MonoBehaviour
                 timer = 0.0f;
                 FailState = true;
                 GameStateManager.Instance.OnTimeUp();
+                TimerActivated = false;
             }
             twodig = String.Format("{0:0.00}", timer);
             num.text = twodig;

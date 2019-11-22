@@ -32,7 +32,8 @@ public class GameStateManager : MonoBehaviour
         NONE,
         BEFORE_ENTERING_BASE,
         BASE_ENTERED,
-        GAME_OVER
+        GAME_OVER_LOSE,
+        GAME_OVER_WIN
     }
     public GameStates GameState { get; private set; }
 
@@ -66,7 +67,21 @@ public class GameStateManager : MonoBehaviour
 
     public void OnTimeUp()
     {
-        ChangeState(GameStates.GAME_OVER);
+        // use the outdoor trigger to determine if the game was won or lost
+        OutdoorTrigger outdoorTrigger = FindObjectOfType<OutdoorTrigger>();
+        if (outdoorTrigger == null)
+        {
+            throw new MissingComponentException("An OutDoorTrigger is required to determine if the players got out of the base. Please add one to the scene");
+        }
+
+        if (outdoorTrigger.NumberOfPlayersInsideTheBase > 0)
+        {
+            ChangeState(GameStates.GAME_OVER_LOSE);
+        }
+        else
+        {
+            ChangeState(GameStates.GAME_OVER_WIN);
+        }
     }
 
     public void OnResetGame()
