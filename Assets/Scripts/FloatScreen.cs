@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 public class FloatScreen : MonoBehaviour
 {
     [SerializeField] private GameObject ToBeFloat = null;
-    public GameStateManager.GameStates a;
+    [SerializeField] private GameStateManager.GameStates ChangingState;
     void Start()
     {
-        GameStateManager.Instance.RegisterOnStateChange(a, load_scene);
+        GameStateManager.Instance.RegisterOnStateChange(ChangingState, load_scene);
     }
 
     private void load_scene(){
