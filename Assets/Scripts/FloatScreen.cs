@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Fail : MonoBehaviour
+public class FloatScreen : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject ToBeFloat;
     void Start()
     {
         GameStateManager.Instance.RegisterOnStateChange(GameStateManager.GameStates.GAME_OVER_LOSE, load_scene);
     }
 
-    public void load_scene(){
-        load = GameObject FailScreen;
-        load.SetActive(true);
+    private void load_scene(){
+        ToBeFloat.SetActive(true);
     }
 }
