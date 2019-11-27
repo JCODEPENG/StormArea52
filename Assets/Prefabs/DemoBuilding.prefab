@@ -64,6 +64,7 @@ Transform:
   m_Children:
   - {fileID: 8352226146777893586}
   - {fileID: 8352226147769853406}
+  - {fileID: 1841763638411934506}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -923,10 +924,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1722153452871227819}
     m_Modifications:
-    - target: {fileID: 1228651179532958, guid: 8b1040fedd8c3484ba95a29f1f562955, type: 3}
-      propertyPath: m_Name
-      value: Console_01_snaps002
-      objectReference: {fileID: 0}
     - target: {fileID: 4505778967708858, guid: 8b1040fedd8c3484ba95a29f1f562955, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.382139
@@ -970,6 +967,10 @@ PrefabInstance:
     - target: {fileID: 4505778967708858, guid: 8b1040fedd8c3484ba95a29f1f562955, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228651179532958, guid: 8b1040fedd8c3484ba95a29f1f562955, type: 3}
+      propertyPath: m_Name
+      value: Console_01_snaps002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b1040fedd8c3484ba95a29f1f562955, type: 3}
@@ -1357,6 +1358,91 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7225403011657333658}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8136191466148792447
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1987276280765786797}
+    m_Modifications:
+    - target: {fileID: 8798659302049242180, guid: a3990418b4969454db479d34f2687475,
+        type: 3}
+      propertyPath: m_Name
+      value: LaserRoomProps
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594983507501986645, guid: a3990418b4969454db479d34f2687475,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594983507501986645, guid: a3990418b4969454db479d34f2687475,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594983507501986645, guid: a3990418b4969454db479d34f2687475,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594983507501986645, guid: a3990418b4969454db479d34f2687475,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594983507501986645, guid: a3990418b4969454db479d34f2687475,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594983507501986645, guid: a3990418b4969454db479d34f2687475,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594983507501986645, guid: a3990418b4969454db479d34f2687475,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594983507501986645, guid: a3990418b4969454db479d34f2687475,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594983507501986645, guid: a3990418b4969454db479d34f2687475,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594983507501986645, guid: a3990418b4969454db479d34f2687475,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594983507501986645, guid: a3990418b4969454db479d34f2687475,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2606031600517086698, guid: a3990418b4969454db479d34f2687475,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8630578309620123274, guid: a3990418b4969454db479d34f2687475,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a3990418b4969454db479d34f2687475, type: 3}
+--- !u!4 &1841763638411934506 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7594983507501986645, guid: a3990418b4969454db479d34f2687475,
+    type: 3}
+  m_PrefabInstance: {fileID: 8136191466148792447}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8352226145938623124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1364,10 +1450,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (23)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -1411,6 +1493,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (23)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -2120,10 +2206,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146454714341}
     m_Modifications:
-    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_01_snaps002 (15)
-      objectReference: {fileID: 0}
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18
@@ -2167,6 +2249,10 @@ PrefabInstance:
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_01_snaps002 (15)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
@@ -2309,10 +2395,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (13)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -2356,6 +2438,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (13)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -3821,10 +3907,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146454714341}
     m_Modifications:
-    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_01_snaps002 (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
@@ -3868,6 +3950,10 @@ PrefabInstance:
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_01_snaps002 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
@@ -4262,10 +4348,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146454714341}
     m_Modifications:
-    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_01_snaps002 (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4310,6 +4392,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_01_snaps002 (6)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
 --- !u!4 &8351434357656382922 stripped
@@ -4325,10 +4411,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (25)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -4372,6 +4454,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (25)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -4577,10 +4663,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -4624,6 +4706,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -6215,10 +6301,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146454714341}
     m_Modifications:
-    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_01_snaps002 (13)
-      objectReference: {fileID: 0}
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18
@@ -6262,6 +6344,10 @@ PrefabInstance:
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_01_snaps002 (13)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
@@ -6656,10 +6742,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -6704,6 +6786,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (5)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
 --- !u!4 &8351461252955574626 stripped
@@ -6719,10 +6805,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -6767,6 +6849,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (8)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
 --- !u!4 &8351461252957033758 stripped
@@ -6782,10 +6868,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (26)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -6829,6 +6911,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (26)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -7160,10 +7246,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (14)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -7207,6 +7289,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (14)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -8735,10 +8821,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146454714341}
     m_Modifications:
-    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_01_snaps002 (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -8782,6 +8864,10 @@ PrefabInstance:
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_01_snaps002 (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
@@ -9302,10 +9388,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (12)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -9349,6 +9431,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (12)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -10625,10 +10711,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (29)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -10672,6 +10754,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (29)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -12641,10 +12727,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (18)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -12688,6 +12770,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (18)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -12830,10 +12916,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
@@ -12877,6 +12959,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -13586,10 +13672,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (17)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -13633,6 +13715,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (17)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -14090,10 +14176,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146454714341}
     m_Modifications:
-    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_01_snaps002 (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -14137,6 +14219,10 @@ PrefabInstance:
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_01_snaps002 (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
@@ -15098,10 +15184,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
@@ -15145,6 +15227,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -15287,10 +15373,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (16)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -15334,6 +15416,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (16)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -15728,10 +15814,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (27)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
@@ -15775,6 +15857,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (27)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -16799,10 +16885,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226147769853406}
     m_Modifications:
-    - target: {fileID: 1845894196456500, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
-      propertyPath: m_Name
-      value: Deck_Door_01_snaps002 (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 4053863791800276, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -16854,6 +16936,10 @@ PrefabInstance:
     - target: {fileID: 4053863791800276, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
       propertyPath: m_LocalScale.y
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1845894196456500, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
+      propertyPath: m_Name
+      value: Deck_Door_01_snaps002 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 64276445288900502, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
@@ -17570,10 +17656,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -17617,6 +17699,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -18200,10 +18286,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -18247,6 +18329,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -18326,10 +18412,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (24)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -18373,6 +18455,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (24)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -19082,10 +19168,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (21)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
@@ -19129,6 +19211,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (21)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -19586,10 +19672,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146454714341}
     m_Modifications:
-    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_01_snaps002 (12)
-      objectReference: {fileID: 0}
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18
@@ -19633,6 +19715,10 @@ PrefabInstance:
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_01_snaps002 (12)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
@@ -19964,10 +20050,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -20011,6 +20093,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -21791,10 +21877,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146454714341}
     m_Modifications:
-    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_01_snaps002
-      objectReference: {fileID: 0}
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -21838,6 +21920,10 @@ PrefabInstance:
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_01_snaps002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
@@ -22106,10 +22192,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -22153,6 +22235,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -22295,10 +22381,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146454714341}
     m_Modifications:
-    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_01_snaps002 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -22342,6 +22424,10 @@ PrefabInstance:
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_01_snaps002 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
@@ -22736,10 +22822,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -22784,6 +22866,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (4)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
 --- !u!4 &8351461251839860615 stripped
@@ -22799,10 +22885,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146454714341}
     m_Modifications:
-    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_01_snaps002 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -22846,6 +22928,10 @@ PrefabInstance:
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_01_snaps002 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
@@ -23429,10 +23515,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146454714341}
     m_Modifications:
-    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_01_snaps002 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -23476,6 +23558,10 @@ PrefabInstance:
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_01_snaps002 (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
@@ -23744,10 +23830,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146454714341}
     m_Modifications:
-    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_01_snaps002 (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -23791,6 +23873,10 @@ PrefabInstance:
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_01_snaps002 (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
@@ -23870,10 +23956,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (19)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -23917,6 +23999,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (19)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -25193,10 +25279,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146454714341}
     m_Modifications:
-    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_01_snaps002 (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
@@ -25241,6 +25323,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_01_snaps002 (9)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
 --- !u!4 &8351434355988661143 stripped
@@ -25256,10 +25342,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -25303,6 +25385,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -26138,10 +26224,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -26185,6 +26267,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -26579,10 +26665,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146454714341}
     m_Modifications:
-    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_01_snaps002 (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -26626,6 +26708,10 @@ PrefabInstance:
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_01_snaps002 (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
@@ -27272,10 +27358,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226147769853406}
     m_Modifications:
-    - target: {fileID: 1845894196456500, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
-      propertyPath: m_Name
-      value: Deck_Door_01_snaps002
-      objectReference: {fileID: 0}
     - target: {fileID: 4053863791800276, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -27328,6 +27410,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1845894196456500, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
+      propertyPath: m_Name
+      value: Deck_Door_01_snaps002
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 64276445288900502, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d84d9aca57d04ea4d96509c40be8b8b4, type: 3}
@@ -27350,10 +27436,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (22)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -27397,6 +27479,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (22)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -27602,10 +27688,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146777893586}
     m_Modifications:
-    - target: {fileID: 1173782784546992, guid: 81279501067723a43bb567f45f07c5a0, type: 3}
-      propertyPath: m_Name
-      value: Gen_Ramp_01_snaps002
-      objectReference: {fileID: 0}
     - target: {fileID: 4350049322196670, guid: 81279501067723a43bb567f45f07c5a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27
@@ -27657,6 +27739,10 @@ PrefabInstance:
     - target: {fileID: 4350049322196670, guid: 81279501067723a43bb567f45f07c5a0, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173782784546992, guid: 81279501067723a43bb567f45f07c5a0, type: 3}
+      propertyPath: m_Name
+      value: Gen_Ramp_01_snaps002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81279501067723a43bb567f45f07c5a0, type: 3}
@@ -28744,10 +28830,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (28)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -28791,6 +28873,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (28)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -29563,10 +29649,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (20)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -29610,6 +29692,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (20)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -29752,10 +29838,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146097808477}
     m_Modifications:
-    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
-      propertyPath: m_Name
-      value: Gen_Floor_03_snaps002 (15)
-      objectReference: {fileID: 0}
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
@@ -29799,6 +29881,10 @@ PrefabInstance:
     - target: {fileID: 4302042920928744, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454010233919568, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
+      propertyPath: m_Name
+      value: Gen_Floor_03_snaps002 (15)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45c41f59dbb9894cb895ef86d325026, type: 3}
@@ -30949,10 +31035,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8352226146454714341}
     m_Modifications:
-    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_01_snaps002 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -30996,6 +31078,10 @@ PrefabInstance:
     - target: {fileID: 4310228944547104, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504684326689670, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_01_snaps002 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f34eff83f0d13d041a2429cea847b3ff, type: 3}
@@ -31201,10 +31287,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1722153452871227819}
     m_Modifications:
-    - target: {fileID: 1062870459301972, guid: b8fc8c3d0e0ff9b4089c4e346ac42ecc, type: 3}
-      propertyPath: m_Name
-      value: Crate_04_snaps002
-      objectReference: {fileID: 0}
     - target: {fileID: 4725293624299974, guid: b8fc8c3d0e0ff9b4089c4e346ac42ecc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.55
@@ -31252,6 +31334,10 @@ PrefabInstance:
     - target: {fileID: 4725293624299974, guid: b8fc8c3d0e0ff9b4089c4e346ac42ecc, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062870459301972, guid: b8fc8c3d0e0ff9b4089c4e346ac42ecc, type: 3}
+      propertyPath: m_Name
+      value: Crate_04_snaps002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8fc8c3d0e0ff9b4089c4e346ac42ecc, type: 3}
