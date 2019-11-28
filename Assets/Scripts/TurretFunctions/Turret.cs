@@ -8,7 +8,7 @@ public class Turret : MonoBehaviour
     public Transform turrethead;
 
     public float attackdamage;
-    public float shotCoolDown = 1.0f;
+    public float shotCoolDown;
     private float timer;
     public float lookspeed = 1f; 
     public float attackdist;

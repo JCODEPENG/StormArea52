@@ -2479,6 +2479,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 197648989}
+    - target: {fileID: 8500029622523273100, guid: 1be887cd314fc4dd4b3008c46e9be657,
+        type: 3}
+      propertyPath: shotCoolDown
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8500029622523273101, guid: 1be887cd314fc4dd4b3008c46e9be657,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3289,6 +3294,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1380008166}
+    - target: {fileID: 8500029622523273100, guid: 1be887cd314fc4dd4b3008c46e9be657,
+        type: 3}
+      propertyPath: lookspeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8500029622523273101, guid: 1be887cd314fc4dd4b3008c46e9be657,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4333,6 +4343,11 @@ PrefabInstance:
         type: 3}
       propertyPath: attackdist
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8500029622523273100, guid: 1be887cd314fc4dd4b3008c46e9be657,
+        type: 3}
+      propertyPath: shotCoolDown
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8500029622523273101, guid: 1be887cd314fc4dd4b3008c46e9be657,
         type: 3}
