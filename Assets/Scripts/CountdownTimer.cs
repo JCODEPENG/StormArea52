@@ -9,13 +9,17 @@ public class CountdownTimer : MonoBehaviour
 {
     [SerializeField] private float GameTime = 0.0f;
     public Text num ;
+    public Image circle;
 
     private float timer;
     private string twodig;
+    private float percentage;
+    private float total_time;
+    private Color newcolor;
+
     public bool FailState = false;
-
     public bool TimerActivated = false;
-
+    
     // sets the timer to the timer set in unity
     void Start()
     {
@@ -46,6 +50,14 @@ public class CountdownTimer : MonoBehaviour
             }
             twodig = String.Format("{0:0.00}", timer);
             num.text = twodig;
+            //image of timer
+            percentage = timer / total_time;
+            circle.fillAmount = percentage;
+            //color of timer
+            if ( timer <= 5f && FailState == false){
+            newcolor.g -= Time.deltaTime ;
+            newcolor.b = newcolor.g;
+            circle.color = newcolor;}   
         }
     }
 
@@ -56,5 +68,9 @@ public class CountdownTimer : MonoBehaviour
         FailState = false;
         twodig = String.Format("{0:0.00}", timer);
         num.text = twodig;
+        //image of timer
+        total_time = GameTime;
+        percentage = 1;
+        newcolor = Color.white;
     }
 }
