@@ -2936,7 +2936,7 @@ MonoBehaviour:
   attackdamage: 10
   shotCoolDown: 2
   lookspeed: 2
-  attackdist: 15
+  attackdist: 10
   showRange: 1
   shotscript: {fileID: 0}
 --- !u!114 &8500029622523273091
