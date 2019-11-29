@@ -29,6 +29,7 @@ public class CharacterController : MonoBehaviour
         {
             throw new MissingComponentException("Character controller needs a rigidbody");
         }
+        GameStateManager.Instance.RegisterOnStateChange(GameStateManager.GameStates.GAME_OVER_LOSE, NotMove);
     }
 
     // Update is called once per frame
@@ -69,6 +70,9 @@ public class CharacterController : MonoBehaviour
         {
             rb.AddForce(CurrentMovementDirection.normalized * MovementForce);
         }
+    }
+    private void NotMove(){
+        MovementForce = 0f;
     }
 
     public float CurrentMovementSpeed => rb.velocity.magnitude;
