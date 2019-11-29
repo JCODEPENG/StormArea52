@@ -13,7 +13,7 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private KeyCode MoveLeftKey = KeyCode.A;
     [SerializeField] private KeyCode MoveDownKey = KeyCode.S;
     [SerializeField] private KeyCode MoveRightKey = KeyCode.D;
-
+    [SerializeField] public KeyCode ActionKey = KeyCode.E;
     [Header("Movement")]
     [SerializeField] private float MovementForce = 100f;
 
