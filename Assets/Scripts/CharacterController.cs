@@ -15,6 +15,7 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private KeyCode MoveDownKey = KeyCode.S;
     [SerializeField] private KeyCode MoveRightKey = KeyCode.D;
     [SerializeField] private KeyCode ThrowKey = KeyCode.Space;
+    [SerializeField] public KeyCode ActionKey = KeyCode.E;
 
     [Header("Movement")]
     [SerializeField] private float MovementForce = 100f;
@@ -34,6 +35,7 @@ public class CharacterController : MonoBehaviour
         {
             throw new MissingComponentException("Character controller needs a rigidbody");
         }
+        GameStateManager.Instance.RegisterOnStateChange(GameStateManager.GameStates.GAME_OVER_LOSE, NotMove);
     }
 
     // Update is called once per frame
@@ -54,6 +56,7 @@ public class CharacterController : MonoBehaviour
         Vector3 movementDirection = Vector3.zero;
 
         // read keyboard inputs to determine which direction to move in.
+
         if (Input.GetKey(MoveUpKey))
         {
             movementDirection += transform.forward;
@@ -79,15 +82,19 @@ public class CharacterController : MonoBehaviour
         }
 
         return movementDirection;
+
+
     }
 
-    // Physics updates on FixedUpdate, so apply movement forces here instead of in Update()
     private void FixedUpdate()
     {
         if (CurrentMovementDirection != Vector3.zero)
         {
             rb.AddForce(CurrentMovementDirection.normalized * MovementForce);
         }
+    }
+    private void NotMove(){
+        MovementForce = 0f;
     }
 
     public float CurrentMovementSpeed => rb.velocity.magnitude;
