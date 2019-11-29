@@ -1117,7 +1117,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1051470756266621201, guid: 9d14e66e6d06d439c80469e08967f462,
-      propertyPath: ActionKey
+      propertyPath: ActionKey}
       value: 117
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1575,11 +1575,7 @@ Transform:
   - {fileID: 257462286}
   - {fileID: 1633468829}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 2
-=======
-  m_RootOrder: 3
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &2131928102
 Mesh:
