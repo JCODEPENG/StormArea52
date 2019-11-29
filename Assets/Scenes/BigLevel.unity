@@ -1978,6 +1978,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 856200928688345522, guid: fa47ff306de6e4dc5a4ef02df5eca0bb,
+        type: 3}
+      propertyPath: collectable
+      value: 
+      objectReference: {fileID: 8742094748274932498, guid: 25ca21ce55e669344a8503c384e85155,
+        type: 3}
     - target: {fileID: 856200928688345523, guid: fa47ff306de6e4dc5a4ef02df5eca0bb,
         type: 3}
       propertyPath: m_Mass
@@ -2350,7 +2356,7 @@ Transform:
   m_Children:
   - {fileID: 920293052}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1112724079 stripped
 Transform:
@@ -2750,6 +2756,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1051470756266621201, guid: 9d14e66e6d06d439c80469e08967f462,
+        type: 3}
+      propertyPath: collectable
+      value: 
+      objectReference: {fileID: 8742094748274932498, guid: 25ca21ce55e669344a8503c384e85155,
+        type: 3}
+    - target: {fileID: 1051470756266621201, guid: 9d14e66e6d06d439c80469e08967f462,
+        type: 3}
+      propertyPath: ThrowKey
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1051470756266621201, guid: 9d14e66e6d06d439c80469e08967f462,
+        type: 3}
+      propertyPath: ActionKey
+      value: 111
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d14e66e6d06d439c80469e08967f462, type: 3}
@@ -4347,7 +4369,7 @@ Transform:
   - {fileID: 257462286}
   - {fileID: 1633468829}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &2131928102
 Mesh:
@@ -4562,7 +4584,7 @@ PrefabInstance:
     - target: {fileID: 1726571324572706903, guid: 9678ea3a7a6d2433fb1399fdf2594c91,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1726571324572706903, guid: 9678ea3a7a6d2433fb1399fdf2594c91,
         type: 3}
