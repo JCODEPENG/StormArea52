@@ -46,7 +46,7 @@ public class CharacterController : MonoBehaviour
         {
             Instantiate(collectable,new Vector3(col_pos.x,col_pos.y,col_pos.z), Quaternion.identity);
             score--;
-            scoretext.text = "Player score: " + score.ToString();
+            //scoretext.text = "Player score: " + score.ToString();
             Debug.Log(score);
         }
     }
@@ -104,7 +104,7 @@ public class CharacterController : MonoBehaviour
         if (coll.gameObject.CompareTag("col")) 
         {
             score++;
-            scoretext.text = "Player score: " + score.ToString();
+           // scoretext.text = "Player score: " + score.ToString();
             Destroy(coll.gameObject);
             Debug.Log(score);
 
