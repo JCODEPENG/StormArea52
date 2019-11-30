@@ -87,6 +87,11 @@ PrefabInstance:
       propertyPath: MoveRightKey
       value: 108
       objectReference: {fileID: 0}
+    - target: {fileID: 856200928688345522, guid: fa47ff306de6e4dc5a4ef02df5eca0bb,
+        type: 3}
+      propertyPath: PlayerNumber
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 856200928820738840, guid: fa47ff306de6e4dc5a4ef02df5eca0bb,
         type: 3}
       propertyPath: m_Sprite

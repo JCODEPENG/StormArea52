@@ -74,7 +74,7 @@ public class GameStateManager : MonoBehaviour
             throw new MissingComponentException("An OutDoorTrigger is required to determine if the players got out of the base. Please add one to the scene");
         }
 
-        if (outdoorTrigger.NumberOfPlayersInsideTheBase > 0)
+        if (outdoorTrigger.NumberOfPlayersOutsideTheBase < 1)
         {
             ChangeState(GameStates.GAME_OVER_LOSE);
         }

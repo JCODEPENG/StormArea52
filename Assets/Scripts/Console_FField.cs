@@ -9,7 +9,7 @@ public class Console_FField : MonoBehaviour
     {
         CharacterController playerController = player.GetComponent<CharacterController>();
         if (player.tag == "Player"){
-            if (Input.GetKeyDown(playerController.ActionKey))
+            if (playerController.IsActionKeyPressed())
             {
                 Renderer render = GetComponent<Renderer>();
                 if (field.gameObject.active == true)

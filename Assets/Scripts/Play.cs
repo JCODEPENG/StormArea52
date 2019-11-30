@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Play : MonoBehaviour
 {
     public void GameStart (){
-        SceneManager.LoadScene("GameStateTest");
+        SceneManager.LoadScene(1);
     }
 
     public void CloseGame(){

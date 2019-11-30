@@ -19,6 +19,10 @@ public class OutdoorTrigger : MonoBehaviour
     public int NumberOfPlayersInsideTheBase => PlayerStatuses.Count(status => status.Value == PlayerStatus.INSIDE_BASE);
     public int NumberOfPlayersOutsideTheBase => PlayerStatuses.Count(status => status.Value == PlayerStatus.OUTSIDE_BASE);
 
+    public int CalculatedScore => PlayerStatuses
+        .Where(status => status.Value == PlayerStatus.OUTSIDE_BASE)
+        .Aggregate(0, (total, status) => total + status.Key.GetComponent<CharacterController>().score);
+
     void Start()
     {
         PlayerStatuses = new Dictionary<GameObject, PlayerStatus>();

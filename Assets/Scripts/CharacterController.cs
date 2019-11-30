@@ -17,15 +17,20 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private KeyCode ThrowKey = KeyCode.Space;
     [SerializeField] public KeyCode ActionKey = KeyCode.E;
 
+    [Tooltip("Determines which controller controls this player")]
+    [SerializeField] private int PlayerNumber = 1;
+
     [Header("Movement")]
     [SerializeField] private float MovementForce = 100f;
 
     private Rigidbody rb;
     private Vector3 CurrentMovementDirection = Vector3.zero;
     private Vector3 col_pos;
-    int score = 0;
+    public int score { get; private set; } = 0;
     public GameObject collectable;
     public Text scoretext;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,14 +47,21 @@ public class CharacterController : MonoBehaviour
     void Update()
     {
         CurrentMovementDirection = GetMovementDirectionFromPlayerInputs();
-        if (Input.GetKeyDown(ThrowKey) && score>0)
+        if (IsThrowButtonPressed && score>0)
         {
-            Instantiate(collectable,new Vector3(col_pos.x,col_pos.y,col_pos.z), Quaternion.identity);
+            //Instantiate(collectable,new Vector3(col_pos.x,col_pos.y,col_pos.z), Quaternion.identity);
+            Instantiate(
+                collectable,
+                transform.position + (new Vector3(2f, 0.5f, Random.Range(0f, 0.3f))),
+                Quaternion.identity
+            );
             score--;
             //scoretext.text = "Player score: " + score.ToString();
             Debug.Log(score);
         }
     }
+
+    private bool IsThrowButtonPressed => Input.GetKeyDown(ThrowKey) || Input.GetKeyDown("joystick " + PlayerNumber + " button 2");
 
     private Vector3 GetMovementDirectionFromPlayerInputs()
     {
@@ -80,24 +92,44 @@ public class CharacterController : MonoBehaviour
             col_pos.Set(rb.position.x + 2, rb.position.y , rb.position.z);
 
         }
+        movementDirection += Input.GetAxis("P" + PlayerNumber.ToString() + "Horizontal") * transform.right;
+        movementDirection += Input.GetAxis("P" + PlayerNumber.ToString() + "Vertical") * transform.forward;
+
 
         return movementDirection;
-
-
     }
 
     private void FixedUpdate()
     {
         if (CurrentMovementDirection != Vector3.zero)
         {
-            rb.AddForce(CurrentMovementDirection.normalized * MovementForce);
+            if (CurrentMovementDirection.magnitude > 1f)
+            {
+                CurrentMovementDirection = CurrentMovementDirection.normalized;
+            }
+            CurrentMovementDirection *= MovementForce;
         }
+        rb.velocity = new Vector3(CurrentMovementDirection.x, rb.velocity.y, CurrentMovementDirection.z);
     }
+
     private void NotMove(){
         MovementForce = 0f;
     }
 
     public float CurrentMovementSpeed => rb.velocity.magnitude;
+
+    public bool IsActionKeyPressed()
+    {
+        if (Input.GetKeyDown(ActionKey))
+        {
+            return true;
+        }
+        if (Input.GetKeyDown("joystick " + PlayerNumber + " button 1"))
+        {
+            return true;
+        }
+        return false;
+    }
 
      void OnCollisionEnter (Collision coll)
     {
@@ -109,7 +141,5 @@ public class CharacterController : MonoBehaviour
             Debug.Log(score);
 
         }
-    }
-   
-    
-    }
+    }   
+}

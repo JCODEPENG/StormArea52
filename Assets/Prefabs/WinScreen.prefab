@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ToBeFloat: {fileID: 4758287823050651850}
-  a: 4
+  ChangingState: 4
 --- !u!1 &4758287823050651850
 GameObject:
   m_ObjectHideFlags: 0
