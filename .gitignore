@@ -58,6 +58,8 @@ crashlytics-build.properties
 # Other build related folders
 /MonoBleedingEdge/
 /**_Data/
+/buildwebgl/
+/buildmac/
 
 # DS store
 .DS_Store

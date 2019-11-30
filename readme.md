@@ -1,25 +1,34 @@
-﻿# Storm Area 52
-SFU Surge project
+# <img src="./readme-img/logo.svg" width="40px" alt="SFU Surge logo" /> SFU Surge: Storm Area 52
 
 ## About
-Storm Area 52 is a multiplayer game made in Unity about working together to retreive as much evidence before time runs out.
+
+**Storm Area 52** is a multiplayer game about working together to retrieve as much evidence before time runs out.
 
 ## Project milestones
-[x] Concept
-[ ] MVP (Minimum viable product)
-[ ] Alpha release
-[ ] Vertical slice
-[ ] Feature complete
-[ ] Beta release
-[ ] Polish
-[ ] Version 1.0 release
+- [x] Concept
+- [x] [MVP](https://github.com/sfusurge/StormArea52/releases/tag/v0.1-alpha) (Minimum viable product)
+- [ ] Alpha release
+- [ ] Vertical slice
+- [ ] Feature complete
+- [ ] Beta release
+- [ ] Polish
+- [ ] Version 1.0 release
 
-## Dev setup
-Install Unity, clone the repo and open the project.
+## Development Setup
+
+Install [Unity](https://unity3d.com/get-unity/download).
+
+Clone the repository with Git:
+```shell
+git clone https://github.com/sfusurge/StormArea52.git
+```
+
+Open the project in Unity.
 
 The project uses ProBuilder and ProGrids, so you may need to install them from the package manager.
+
 To do this:
-* open Unity and click Window -> Package Manager to open the package manager
-* search for "ProBuilder" and install it
-* make sure "Show preview packages" is enabled by clicking Advanced -> Show preview packages
-* search for "ProGrids" and install it
+* Open Unity and click Window -> Package Manager to open the package manager
+* Search for _ProBuilder_ and install it
+* Click Advanced -> Show preview packages, and make sure "Show preview packages" is enabled
+* Search for _ProGrids_ and install it
