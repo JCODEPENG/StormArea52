@@ -4,6 +4,16 @@
 
 **Storm Area 52** is a multiplayer game about working together to retrieve as much evidence before time runs out.
 
+## Project milestones
+- [x] Concept
+- [x] [MVP](https://github.com/sfusurge/StormArea52/releases/tag/v0.1-alpha) (Minimum viable product)
+- [ ] Alpha release
+- [ ] Vertical slice
+- [ ] Feature complete
+- [ ] Beta release
+- [ ] Polish
+- [ ] Version 1.0 release
+
 ## Development Setup
 
 Install [Unity](https://unity3d.com/get-unity/download).
