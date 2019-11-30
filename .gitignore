@@ -60,6 +60,7 @@ crashlytics-build.properties
 /**_Data/
 /buildwebgl/
 /buildmac/
+/buildwindows/
 
 # DS store
 .DS_Store
