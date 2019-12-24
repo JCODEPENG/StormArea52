@@ -31,6 +31,7 @@ public class PressurePlateTrap : MonoBehaviour
         if (obj == 0)
         {
             render.material.color = old;
+            Rotatefunction.DeactivateTrapdoor();
             //field.transform.Rotate(0, 0, 90);
         }
     }
