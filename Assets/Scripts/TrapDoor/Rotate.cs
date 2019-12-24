@@ -16,7 +16,7 @@ public class Rotate : MonoBehaviour
     private IEnumerator RotateaBit()
     {
         Vector3 oldpos = transform.eulerAngles;
-        Vector3 newpos = oldpos + (Vector3.forward * 90);
+        Vector3 newpos = oldpos + (Vector3.right * 90);
 
         float start_time = 0f;
         while (start_time < timetomove)
