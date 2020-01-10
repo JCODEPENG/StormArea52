@@ -6,6 +6,8 @@ public class BulletMovement : MonoBehaviour
 {
     public Transform pos;
     Vector3 force;
+
+
     
     //float step = 1.0f;
     float thrust = 5000.0f;

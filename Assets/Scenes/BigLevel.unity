@@ -4689,6 +4689,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 679227168}
+    - target: {fileID: 7061688818581362353, guid: 9678ea3a7a6d2433fb1399fdf2594c91,
+        type: 3}
+      propertyPath: pools.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9678ea3a7a6d2433fb1399fdf2594c91, type: 3}
 --- !u!1001 &8352226147500254602
