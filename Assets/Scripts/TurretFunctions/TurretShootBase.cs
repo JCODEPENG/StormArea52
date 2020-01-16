@@ -23,7 +23,7 @@ public class TurretShootBase : MonoBehaviour
     {
         //instantiates a bullet
         //GameObject missilego = Instantiate(bullet, muzzle.transform.position, muzzle.rotation);
-        TurretShootBase.instance.SpawnFromPool("Cube", transform.position, Quaternion.identity);
+        TurretShootBase.instance.SpawnFromPool("Cube", muzzle.transform.position, muzzle.rotation);
         //missilego.GetComponent<BulletMovement>().SetTracker(go);
 
         //missilego.transform.position += transform.forward * Time.deltaTime;
