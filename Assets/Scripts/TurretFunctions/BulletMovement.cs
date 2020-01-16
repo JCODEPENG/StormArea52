@@ -33,12 +33,12 @@ public class BulletMovement : MonoBehaviour
             else
             {
                 playercomponent.AddForce(force * thrust);
-                Destroy(gameObject);
+                gameObject.SetActive(false);
             }
 
         }
 
-        Destroy(gameObject);
+        gameObject.SetActive(false);
 
     }
     public void SetTracker(GameObject go)

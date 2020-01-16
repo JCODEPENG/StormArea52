@@ -14,18 +14,27 @@ public class TurretShootBase : MonoBehaviour
 
     public List<Pool> pools;
     public Transform muzzle;
-    public GameObject bullet;
+    //public GameObject bullet;
     public Dictionary<string, Queue<GameObject>> poolDictionary;
+
+    public static TurretShootBase instance;
 
     public virtual void Shoot(GameObject go)
     {
         //instantiates a bullet
-        GameObject missilego = Instantiate(bullet, muzzle.transform.position, muzzle.rotation);
-        missilego.GetComponent<BulletMovement>().SetTracker(go);
+        //GameObject missilego = Instantiate(bullet, muzzle.transform.position, muzzle.rotation);
+        TurretShootBase.instance.SpawnFromPool("Cube", transform.position, Quaternion.identity);
+        //missilego.GetComponent<BulletMovement>().SetTracker(go);
 
         //missilego.transform.position += transform.forward * Time.deltaTime;
        
     }
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     void Start()
     {
         poolDictionary = new Dictionary<string, Queue<GameObject>>();
@@ -43,7 +52,8 @@ public class TurretShootBase : MonoBehaviour
             poolDictionary.Add(pool.tag, objectpool);
         }
     }
-    public GameObject SpawnFromPool (string tag, Vector3 position)
+
+    public GameObject SpawnFromPool (string tag, Vector3 position, Quaternion rotation)
     {
         if (!poolDictionary.ContainsKey(tag))
         {
@@ -54,7 +64,10 @@ public class TurretShootBase : MonoBehaviour
         GameObject objecttospawn = poolDictionary[tag].Dequeue();
         objecttospawn.SetActive(true);
         objecttospawn.transform.position = position;
-        
+        objecttospawn.transform.rotation = rotation;
+
+        poolDictionary[tag].Enqueue(objecttospawn);
+        return objecttospawn;
         
     }
 
