@@ -80,9 +80,13 @@ MonoBehaviour:
   MoveLeftKey: 97
   MoveDownKey: 115
   MoveRightKey: 100
+  ThrowKey: 32
   ActionKey: 101
   PlayerNumber: 1
   MovementForce: 9
+  KnockedDownMovementForce: 1
+  collectable: {fileID: 0}
+  scoretext: {fileID: 0}
 --- !u!1 &856200928820738842
 GameObject:
   m_ObjectHideFlags: 0

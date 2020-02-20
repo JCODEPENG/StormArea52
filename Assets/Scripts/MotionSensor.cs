@@ -60,7 +60,7 @@ public class MotionSensor : MonoBehaviour
             CharacterController hitCharacter = raycastHit.collider.GetComponent<CharacterController>();
             if (hitCharacter != null && hitCharacter.CurrentMovementSpeed > MovementSpeedDetectionThreshold)
             {
-                OnPlayerHit();
+                OnPlayerHit(hitCharacter);
             }
             else
             {
@@ -75,10 +75,12 @@ public class MotionSensor : MonoBehaviour
         }
     }
 
-    private void OnPlayerHit()
+    private void OnPlayerHit(CharacterController character)
     {
         LaserLineRenderer.material.color = Color.white;
         StatusLightRenderer.material.color = Color.red;
+
+        character.KnockDown();
     }
 
     private void OnPlayerNotHit()
