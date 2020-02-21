@@ -2643,7 +2643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muzzle: {fileID: 8974294240377109271}
-  bullet: {fileID: 7025425209244068551, guid: b8aceb26fb1e345b7a5d59cf22c8abfe, type: 3}
+  bullet: {fileID: 7019139973957310185, guid: a9dace75e656d425e8dd5e31052d1b06, type: 3}
 --- !u!1 &8974294239263437717
 GameObject:
   m_ObjectHideFlags: 0

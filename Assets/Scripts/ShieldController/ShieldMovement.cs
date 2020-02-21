@@ -12,6 +12,8 @@ public class ShieldMovement : MonoBehaviour
     [SerializeField] private KeyCode MoveRightKey = KeyCode.D;
     [SerializeField] private KeyCode ThrowKey = KeyCode.Space;
     [SerializeField] public KeyCode ActionKey = KeyCode.E;
+    private Vector3 CurrentMovementDirection = Vector3.zero;
+    [SerializeField] private float MovementForce = 10f;
 
     private Vector3 col_pos;
     private Rigidbody rb;
@@ -50,4 +52,43 @@ public class ShieldMovement : MonoBehaviour
 
         return movementDirection;
     }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        // get reference to Rigidbody so we can apply forces to it to move the character around
+        rb = GetComponent<Rigidbody>();
+        if (rb == null)
+        {
+            throw new MissingComponentException("Character controller needs a rigidbody");
+        }
+
+    }
+
+
+    // Update is called once per frame
+    void Update()
+    {
+        CurrentMovementDirection = GetMovementDirectionFromPlayerInputs();
+    }
+
+    public float CurrentMovementSpeed => rb.velocity.magnitude;
+
+    private void FixedUpdate()
+    {
+        if (CurrentMovementDirection != Vector3.zero)
+        {
+            if (CurrentMovementDirection.magnitude > 1f)
+            {
+                CurrentMovementDirection = CurrentMovementDirection.normalized;
+            }
+            CurrentMovementDirection *= MovementForce;
+        }
+        rb.velocity = new Vector3(CurrentMovementDirection.x, rb.velocity.y, CurrentMovementDirection.z);
+    }
+
+
+
 }
+
+

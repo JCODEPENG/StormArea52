@@ -5,9 +5,12 @@ using UnityEngine;
 public class ShieldConsole : MonoBehaviour
 {
     public GameObject field; //any object which will be activated/deactivated
-    bool PlayerIsControlled = true;
+    public bool PlayerIsControlled = true;
+    
+    //public ShieldMovement Controller;
     void OnTriggerStay(Collider player)
     {
+        
         CharacterController playerController = player.GetComponent<CharacterController>();
         if (player.tag == "Player")
         {
@@ -16,6 +19,7 @@ public class ShieldConsole : MonoBehaviour
                 Renderer render = GetComponent<Renderer>();
                 if (PlayerIsControlled == true)
                 {
+                    field.GetComponent<ShieldMovement>().enabled = true;
                     PlayerIsControlled = false;
                     render.material.color = Color.green;
 
@@ -23,6 +27,7 @@ public class ShieldConsole : MonoBehaviour
                 }
                 else
                 {
+                    field.GetComponent<ShieldMovement>().enabled = false;
                     PlayerIsControlled = true;
                     render.material.color = Color.red;
 
@@ -34,6 +39,8 @@ public class ShieldConsole : MonoBehaviour
 
     void Start()
     {
+        field = GameObject.FindWithTag("Shield");
+        field.GetComponent<ShieldMovement>().enabled = false;
 
     }
 
