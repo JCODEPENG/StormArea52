@@ -54,7 +54,6 @@ public class CharacterController : MonoBehaviour
         GameStateManager.Instance.RegisterOnStateChange(GameStateManager.GameStates.GAME_OVER_LOSE, NotMove);
         animator = GetComponentInChildren<Animator>();
         scale = transform.localScale;
-
     }
 
     // Update is called once per frame
@@ -77,11 +76,11 @@ public class CharacterController : MonoBehaviour
 
         if (isKnockedDown)
         {
-            SpriteObject.transform.localEulerAngles = new Vector3(90f, 0f, 180f);
+            animator.SetBool("isDown", true);
         }
         else
         {
-            SpriteObject.transform.localEulerAngles = new Vector3(90f, 0f, 0f);
+            animator.SetBool("isDown", false);
         }
     }
 
@@ -95,6 +94,9 @@ public class CharacterController : MonoBehaviour
 
         if (Input.GetKey(MoveUpKey))
         {
+            if (animator.GetBool("isDown")){
+                scale.z = Mathf.Abs(scale.z);
+            }
             movementDirection += transform.forward;
             col_pos.Set(rb.position.x, rb.position.y, rb.position.z+2); //for collectable's position
         }
@@ -107,6 +109,9 @@ public class CharacterController : MonoBehaviour
         }
         if (Input.GetKey(MoveDownKey))
         {
+            if (animator.GetBool("isDown")){
+                scale.z = -Mathf.Abs(scale.z);
+            }
             movementDirection -= transform.forward;
             col_pos.Set(rb.position.x, rb.position.y , rb.position.z-2);
 
