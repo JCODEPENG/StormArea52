@@ -29,7 +29,8 @@ public class CharacterController : MonoBehaviour
     public int score { get; private set; } = 0;
     public GameObject collectable;
     public Text scoretext;
-
+    private Animator animator;
+    private Vector3 scale;
 
     // Start is called before the first frame update
     void Start()
@@ -41,12 +42,15 @@ public class CharacterController : MonoBehaviour
             throw new MissingComponentException("Character controller needs a rigidbody");
         }
         GameStateManager.Instance.RegisterOnStateChange(GameStateManager.GameStates.GAME_OVER_LOSE, NotMove);
+        animator = GetComponentInChildren<Animator>();
+        scale = transform.localScale;
     }
 
     // Update is called once per frame
     void Update()
     {
         CurrentMovementDirection = GetMovementDirectionFromPlayerInputs();
+        transform.localScale = scale;
         if (IsThrowButtonPressed && score>0)
         {
             //Instantiate(collectable,new Vector3(col_pos.x,col_pos.y,col_pos.z), Quaternion.identity);
@@ -76,6 +80,7 @@ public class CharacterController : MonoBehaviour
         }
         if (Input.GetKey(MoveLeftKey))
         {
+            scale.x = -Mathf.Abs(scale.x);
             movementDirection -= transform.right;
             col_pos.Set(rb.position.x - 2, rb.position.y , rb.position.z);
 
@@ -88,6 +93,7 @@ public class CharacterController : MonoBehaviour
         }
         if (Input.GetKey(MoveRightKey))
         {
+            scale.x = Mathf.Abs(scale.x);
             movementDirection += transform.right;
             col_pos.Set(rb.position.x + 2, rb.position.y , rb.position.z);
 
@@ -101,8 +107,10 @@ public class CharacterController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        animator.SetBool("isRunning", false);
         if (CurrentMovementDirection != Vector3.zero)
         {
+            animator.SetBool("isRunning", true);
             if (CurrentMovementDirection.magnitude > 1f)
             {
                 CurrentMovementDirection = CurrentMovementDirection.normalized;

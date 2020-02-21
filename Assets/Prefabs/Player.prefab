@@ -80,9 +80,12 @@ MonoBehaviour:
   MoveLeftKey: 97
   MoveDownKey: 115
   MoveRightKey: 100
+  ThrowKey: 32
   ActionKey: 101
   PlayerNumber: 1
   MovementForce: 9
+  collectable: {fileID: 0}
+  scoretext: {fileID: 0}
 --- !u!1 &856200928820738842
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,6 +96,7 @@ GameObject:
   m_Component:
   - component: {fileID: 856200928820738843}
   - component: {fileID: 856200928820738840}
+  - component: {fileID: 9076891595355380615}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -164,3 +168,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &9076891595355380615
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856200928820738842}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a3ac8ee423003374ebdd2a59b3659fdb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
