@@ -22,6 +22,10 @@ public class CharacterController : MonoBehaviour
 
     [Header("Movement")]
     [SerializeField] private float MovementForce = 100f;
+    [SerializeField] private float KnockedDownMovementForce = 10f;
+
+    private GameObject SpriteObject;
+    [SerializeField] private GameObject PlayerUIObject;
 
     private Rigidbody rb;
     private Vector3 CurrentMovementDirection = Vector3.zero;
@@ -30,6 +34,8 @@ public class CharacterController : MonoBehaviour
     public GameObject collectable;
     public Text scoretext;
 
+
+    private bool isKnockedDown = false;
 
     // Start is called before the first frame update
     void Start()
@@ -40,7 +46,12 @@ public class CharacterController : MonoBehaviour
         {
             throw new MissingComponentException("Character controller needs a rigidbody");
         }
+        SpriteObject = GetComponentInChildren<SpriteRenderer>().gameObject;
+
+        PlayerUIObject.SetActive(false);
+
         GameStateManager.Instance.RegisterOnStateChange(GameStateManager.GameStates.GAME_OVER_LOSE, NotMove);
+
     }
 
     // Update is called once per frame
@@ -58,6 +69,15 @@ public class CharacterController : MonoBehaviour
             score--;
             //scoretext.text = "Player score: " + score.ToString();
             Debug.Log(score);
+        }
+
+        if (isKnockedDown)
+        {
+            SpriteObject.transform.localEulerAngles = new Vector3(90f, 0f, 180f);
+        }
+        else
+        {
+            SpriteObject.transform.localEulerAngles = new Vector3(90f, 0f, 0f);
         }
     }
 
@@ -99,6 +119,8 @@ public class CharacterController : MonoBehaviour
         return movementDirection;
     }
 
+    private float CurrentMovementForce => isKnockedDown ? KnockedDownMovementForce : MovementForce;
+
     private void FixedUpdate()
     {
         if (CurrentMovementDirection != Vector3.zero)
@@ -107,13 +129,15 @@ public class CharacterController : MonoBehaviour
             {
                 CurrentMovementDirection = CurrentMovementDirection.normalized;
             }
-            CurrentMovementDirection *= MovementForce;
+
+            CurrentMovementDirection *= CurrentMovementForce;
         }
         rb.velocity = new Vector3(CurrentMovementDirection.x, rb.velocity.y, CurrentMovementDirection.z);
     }
 
     private void NotMove(){
         MovementForce = 0f;
+        KnockedDownMovementForce = 0f;
     }
 
     public float CurrentMovementSpeed => rb.velocity.magnitude;
@@ -141,5 +165,22 @@ public class CharacterController : MonoBehaviour
             Debug.Log(score);
 
         }
-    }   
+        if (coll.gameObject.CompareTag("Player"))
+        {
+            // revive other player is able to
+            coll.gameObject.GetComponent<CharacterController>().Revive();
+        }
+    }
+
+    public void KnockDown()
+    {
+        isKnockedDown = true;
+        PlayerUIObject.SetActive(true);
+    }
+
+    public void Revive()
+    {
+        isKnockedDown = false;
+        PlayerUIObject.SetActive(false);
+    }
 }
