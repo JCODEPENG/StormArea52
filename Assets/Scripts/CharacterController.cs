@@ -35,6 +35,7 @@ public class CharacterController : MonoBehaviour
     public Text scoretext;
     private Animator animator;
     private Vector3 scale;
+    private Vector3 rotate;
 
     private bool isKnockedDown = false;
 
@@ -53,6 +54,7 @@ public class CharacterController : MonoBehaviour
 
         GameStateManager.Instance.RegisterOnStateChange(GameStateManager.GameStates.GAME_OVER_LOSE, NotMove);
         animator = GetComponentInChildren<Animator>();
+        rotate = transform.GetChild(0).transform.eulerAngles;
         scale = transform.localScale;
     }
 
@@ -60,6 +62,7 @@ public class CharacterController : MonoBehaviour
     void Update()
     {
         CurrentMovementDirection = GetMovementDirectionFromPlayerInputs();
+        transform.GetChild(0).transform.eulerAngles = rotate;
         transform.localScale = scale;
         if (IsThrowButtonPressed && score>0)
         {
@@ -80,6 +83,7 @@ public class CharacterController : MonoBehaviour
         }
         else
         {
+            rotate.y = 0;
             animator.SetBool("isDown", false);
         }
     }
@@ -95,13 +99,16 @@ public class CharacterController : MonoBehaviour
         if (Input.GetKey(MoveUpKey))
         {
             if (animator.GetBool("isDown")){
-                scale.z = Mathf.Abs(scale.z);
+                rotate.y = 0;
             }
             movementDirection += transform.forward;
             col_pos.Set(rb.position.x, rb.position.y, rb.position.z+2); //for collectable's position
         }
         if (Input.GetKey(MoveLeftKey))
         {
+            if (animator.GetBool("isDown")){
+                rotate.y = -90;
+            }
             scale.x = -Mathf.Abs(scale.x);
             movementDirection -= transform.right;
             col_pos.Set(rb.position.x - 2, rb.position.y , rb.position.z);
@@ -110,7 +117,7 @@ public class CharacterController : MonoBehaviour
         if (Input.GetKey(MoveDownKey))
         {
             if (animator.GetBool("isDown")){
-                scale.z = -Mathf.Abs(scale.z);
+                rotate.y = 180;
             }
             movementDirection -= transform.forward;
             col_pos.Set(rb.position.x, rb.position.y , rb.position.z-2);
@@ -118,6 +125,9 @@ public class CharacterController : MonoBehaviour
         }
         if (Input.GetKey(MoveRightKey))
         {
+            if (animator.GetBool("isDown")){
+                rotate.y = 90;
+            }
             scale.x = Mathf.Abs(scale.x);
             movementDirection += transform.right;
             col_pos.Set(rb.position.x + 2, rb.position.y , rb.position.z);
