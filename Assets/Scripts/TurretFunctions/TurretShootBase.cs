@@ -14,20 +14,13 @@ public class TurretShootBase : MonoBehaviour
 
     public List<Pool> pools;
     public Transform muzzle;
-    //public GameObject bullet;
     public Dictionary<string, Queue<GameObject>> poolDictionary;
 
     public static TurretShootBase instance;
 
     public virtual void Shoot(GameObject go)
     {
-        //instantiates a bullet
-        //GameObject missilego = Instantiate(bullet, muzzle.transform.position, muzzle.rotation);
         TurretShootBase.instance.SpawnFromPool("Cube", muzzle.transform.position, muzzle.rotation);
-        //missilego.GetComponent<BulletMovement>().SetTracker(go);
-
-        //missilego.transform.position += transform.forward * Time.deltaTime;
-       
     }
 
     private void Awake()
