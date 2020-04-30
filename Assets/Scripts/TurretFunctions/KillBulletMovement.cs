@@ -2,16 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletMovement : MonoBehaviour
+public class KillBulletMovement : MonoBehaviour
 {
+    
     public Transform pos;
     Vector3 force;
-    
-    
+    private Transform RespawnPoint;
+
+
     //float step = 1.0f;
     float thrust = 5000.0f;
     private void Update()
     {
+
         //moves bullet forward
         transform.position += transform.forward * Time.deltaTime * 30f;
         force = transform.forward;
@@ -31,7 +34,7 @@ public class BulletMovement : MonoBehaviour
             }
             else
             {
-                playercomponent.AddForce(force * thrust);
+                other.transform.position = RespawnPoint.transform.position;
                 Destroy(gameObject);
             }
 
@@ -44,6 +47,10 @@ public class BulletMovement : MonoBehaviour
     {
         pos = go.transform;
     }
-    
+
+    public void SetRespawnPoint(Transform RespawnPoint)
+    {
+        this.RespawnPoint = RespawnPoint;
+    }
 
 }
