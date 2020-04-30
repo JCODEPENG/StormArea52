@@ -8,6 +8,7 @@ TagManager:
   - Shield
   - KillBullet
   - NormalBullet
+  - Shield2
   layers:
   - Default
   - TransparentFX
