@@ -13,10 +13,10 @@ public class TurretShootBase : MonoBehaviour
     public virtual void Shoot(GameObject go)
     {
         //instantiates a bullet
-
         GameObject missilego = Instantiate(bullet, muzzle.transform.position, muzzle.rotation);
-        missilego.GetComponent<KillBulletMovement>().SetTracker(go);
-        missilego.GetComponent<KillBulletMovement>().SetRespawnPoint(respawnPoint);
+        missilego.GetComponent<BulletMovement>().SetTracker(go);
+        missilego.GetComponent<BulletMovement>().SetRespawnPoint(respawnPoint);
+        
         //How to do missilego.get(respawnPoint)??
 
         //missilego.transform.position += transform.forward * Time.deltaTime;

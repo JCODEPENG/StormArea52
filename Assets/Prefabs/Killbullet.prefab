@@ -13,11 +13,11 @@ GameObject:
   - component: {fileID: 7019139973957310189}
   - component: {fileID: 7019139973957310188}
   - component: {fileID: 3174876456131266083}
+  - component: {fileID: 8408126445446218101}
   - component: {fileID: 2335071899789159125}
-  - component: {fileID: 6507960868559092759}
   m_Layer: 0
   m_Name: Killbullet
-  m_TagString: Untagged
+  m_TagString: KillBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -310,6 +310,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0.5, y: 0.5, z: -0.5}
+--- !u!114 &8408126445446218101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7019139973957310185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b60b945fc3841feacc5e34f8b514c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pos: {fileID: 0}
 --- !u!54 &2335071899789159125
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -326,18 +339,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6507960868559092759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7019139973957310185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e34181d985c44a629d06f5ae1817097, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pos: {fileID: 0}
-  respawnPoint: {fileID: 1663336247785484539, guid: 930bfea1d6bfd40599cb6078614227ab,
-    type: 3}
