@@ -2642,8 +2642,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0c22798cebc244d286f3378f776baee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pools:
+  - tag: 
+    prefab: {fileID: 7019139973957310185, guid: a9dace75e656d425e8dd5e31052d1b06,
+      type: 3}
+    size: 0
   muzzle: {fileID: 8974294240377109271}
-  bullet: {fileID: 7019139973957310185, guid: a9dace75e656d425e8dd5e31052d1b06, type: 3}
+  respawnPoint: {fileID: 0}
 --- !u!1 &8974294239263437717
 GameObject:
   m_ObjectHideFlags: 0

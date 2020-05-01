@@ -2951,8 +2951,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0c22798cebc244d286f3378f776baee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pools:
+  - tag: NormalBullet
+    prefab: {fileID: 7025425209244068551, guid: b8aceb26fb1e345b7a5d59cf22c8abfe,
+      type: 3}
+    size: 5
   muzzle: {fileID: 8500029623381872338}
-  bullet: {fileID: 7025425209244068551, guid: b8aceb26fb1e345b7a5d59cf22c8abfe, type: 3}
+  respawnPoint: {fileID: 0}
 --- !u!1 &8500029623381872339
 GameObject:
   m_ObjectHideFlags: 0

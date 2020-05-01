@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TurretShootBase : MonoBehaviour
 {
+    private string type;
     [System.Serializable]
     public class Pool
     {
@@ -12,6 +13,7 @@ public class TurretShootBase : MonoBehaviour
         public int size;
     }
 
+    
     public List<Pool> pools;
     public Transform muzzle;
     public Dictionary<string, Queue<GameObject>> poolDictionary;
@@ -21,7 +23,18 @@ public class TurretShootBase : MonoBehaviour
 
     public virtual void Shoot(GameObject go)
     {
-        TurretShootBase.instance.SpawnFromPool("Cube", muzzle.transform.position, muzzle.rotation);
+
+        if (type.Equals("KillBullet"))
+        {
+            TurretShootBase.instance.SpawnFromPool("KillBullet", muzzle.transform.position, muzzle.rotation);
+        }
+
+        if (type.Equals("NormalBullet"))
+        {
+            TurretShootBase.instance.SpawnFromPool("NormalBullet", muzzle.transform.position, muzzle.rotation);
+        }
+        
+        
     }
 
     private void Awake()
@@ -38,6 +51,7 @@ public class TurretShootBase : MonoBehaviour
             Queue<GameObject> objectpool = new Queue<GameObject>();
             for (int i = 0; i < pool.size; i++)
             {
+                type = pool.tag;
                 GameObject obj = Instantiate(pool.prefab);
                 obj.SetActive(false);
                 objectpool.Enqueue(obj);
@@ -59,7 +73,7 @@ public class TurretShootBase : MonoBehaviour
         objecttospawn.SetActive(true);
         objecttospawn.transform.position = position;
         objecttospawn.transform.rotation = rotation;
-        objecttospawn.GetComponent<BulletMovement>().SetTracker(go);
+        //objecttospawn.GetComponent<BulletMovement>().SetTracker(go);
         objecttospawn.GetComponent<BulletMovement>().SetRespawnPoint(respawnPoint);
 
         poolDictionary[tag].Enqueue(objecttospawn);
