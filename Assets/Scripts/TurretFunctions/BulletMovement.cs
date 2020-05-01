@@ -15,10 +15,20 @@ public class BulletMovement : MonoBehaviour
     float thrust = 5000.0f;
     private void Update()
     {
-        //moves bullet forward
-        transform.position += transform.forward * Time.deltaTime * 30f;
-        force = transform.forward;
-        //transform.position = Vector3.MoveTowards(transform.position, pos.position, step * Time.deltaTime);
+
+        if (this.CompareTag("NormalBullet"))
+        {
+            //moves bullet forward
+            transform.position += transform.forward * Time.deltaTime * 30f;
+            force = transform.forward;
+        }
+        if (this.CompareTag("KillBullet"))
+        {
+            //moves bullet forward
+            transform.position += transform.forward * Time.deltaTime * 40f;
+            force = transform.forward;
+            transform.position = Vector3.MoveTowards(transform.position, pos.position, 20f * Time.deltaTime);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -34,7 +44,7 @@ public class BulletMovement : MonoBehaviour
             }
             else
             {
-
+                gameObject.SetActive(false);
                 if (this.CompareTag("NormalBullet"))
                 {
                     playercomponent.AddForce(force * thrust);
@@ -45,11 +55,12 @@ public class BulletMovement : MonoBehaviour
                     other.transform.position = RespawnPoint.transform.position;
                     gameObject.SetActive(false);
                 }
-
+                gameObject.SetActive(false);
             }
 
         }
         gameObject.SetActive(false);
+
 
     }
 

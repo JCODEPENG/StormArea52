@@ -26,12 +26,13 @@ public class TurretShootBase : MonoBehaviour
 
         if (type.Equals("KillBullet"))
         {
-            TurretShootBase.instance.SpawnFromPool("KillBullet", muzzle.transform.position, muzzle.rotation);
+            TurretShootBase.instance.SpawnFromPool("KillBullet", muzzle.transform.position, muzzle.rotation,go);
+           
         }
 
         if (type.Equals("NormalBullet"))
         {
-            TurretShootBase.instance.SpawnFromPool("NormalBullet", muzzle.transform.position, muzzle.rotation);
+            TurretShootBase.instance.SpawnFromPool("NormalBullet", muzzle.transform.position, muzzle.rotation, go);
         }
         
         
@@ -61,7 +62,7 @@ public class TurretShootBase : MonoBehaviour
         }
     }
 
-    public GameObject SpawnFromPool (string tag, Vector3 position, Quaternion rotation)
+    public GameObject SpawnFromPool (string tag, Vector3 position, Quaternion rotation, GameObject go)
     {
         if (!poolDictionary.ContainsKey(tag))
         {
@@ -73,7 +74,7 @@ public class TurretShootBase : MonoBehaviour
         objecttospawn.SetActive(true);
         objecttospawn.transform.position = position;
         objecttospawn.transform.rotation = rotation;
-        //objecttospawn.GetComponent<BulletMovement>().SetTracker(go);
+        objecttospawn.GetComponent<BulletMovement>().SetTracker(go);
         objecttospawn.GetComponent<BulletMovement>().SetRespawnPoint(respawnPoint);
 
         poolDictionary[tag].Enqueue(objecttospawn);
