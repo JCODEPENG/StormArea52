@@ -6,12 +6,10 @@ public class ShieldMovement : MonoBehaviour
 {
 
     [Header("Controls")]
-    [SerializeField] private KeyCode MoveUpKey = KeyCode.W;
-    [SerializeField] private KeyCode MoveLeftKey = KeyCode.A;
-    [SerializeField] private KeyCode MoveDownKey = KeyCode.S;
-    [SerializeField] private KeyCode MoveRightKey = KeyCode.D;
-    [SerializeField] private KeyCode ThrowKey = KeyCode.Space;
-    [SerializeField] public KeyCode ActionKey = KeyCode.E;
+    [SerializeField] private KeyCode MoveUpKey;
+    [SerializeField] private KeyCode MoveLeftKey;
+    [SerializeField] private KeyCode MoveDownKey;
+    [SerializeField] private KeyCode MoveRightKey;
     private Vector3 CurrentMovementDirection = Vector3.zero;
     [SerializeField] private float MovementForce = 10f;
 

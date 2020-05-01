@@ -5,7 +5,6 @@ using UnityEngine;
 public class ShieldConsole : MonoBehaviour
 {
     public GameObject field; //any object which will be activated/deactivated
-    public GameObject field1;
     public bool PlayerIsControlled = true;
     
     //public ShieldMovement Controller;
@@ -40,10 +39,7 @@ public class ShieldConsole : MonoBehaviour
 
     void Start()
     {
-        field = GameObject.FindWithTag("Shield");
-        field1 = GameObject.FindWithTag("Shield2");
         field.GetComponent<ShieldMovement>().enabled = false;
-        field1.GetComponent<ShieldMovement>().enabled = false;
 
     }
 
