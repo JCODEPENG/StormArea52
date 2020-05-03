@@ -15,39 +15,75 @@ public class ShieldMovement : MonoBehaviour
 
     private Vector3 col_pos;
     private Rigidbody rb;
+    private Vector3 DoorOrientationMovement(Vector3 movementDirection, bool turned) {
+        if (!turned)
+        {
+            if (Input.GetKey(MoveUpKey))
+            {
+                movementDirection += transform.forward;
+                //col_pos.Set(rb.position.x, rb.position.y, rb.position.z + 2); //for collectable's position
+            }
+            if (Input.GetKey(MoveLeftKey))
+            {
+                movementDirection -= transform.right;
+                //col_pos.Set(rb.position.x - 2, rb.position.y, rb.position.z);
+
+            }
+            if (Input.GetKey(MoveDownKey))
+            {
+                movementDirection -= transform.forward;
+                //col_pos.Set(rb.position.x, rb.position.y, rb.position.z - 2);
+
+            }
+            if (Input.GetKey(MoveRightKey))
+            {
+                movementDirection += transform.right;
+                //col_pos.Set(rb.position.x + 2, rb.position.y, rb.position.z);
+
+            }
+            return movementDirection;
+        }
+        else
+        {
+            if (Input.GetKey(MoveUpKey))
+            {
+                movementDirection -= transform.right;
+                //col_pos.Set(rb.position.x, rb.position.y, rb.position.z + 2); //for collectable's position
+            }
+            if (Input.GetKey(MoveLeftKey))
+            {
+                movementDirection -= transform.forward;
+                //col_pos.Set(rb.position.x - 2, rb.position.y, rb.position.z);
+
+            }
+            if (Input.GetKey(MoveDownKey))
+            {
+                movementDirection += transform.right;
+                //col_pos.Set(rb.position.x, rb.position.y, rb.position.z - 2);
+
+            }
+            if (Input.GetKey(MoveRightKey))
+            {
+                movementDirection += transform.forward;
+                col_pos.Set(rb.position.x + 2, rb.position.y, rb.position.z);
+
+            }
+            return movementDirection;
+        }
+    }
+
     private Vector3 GetMovementDirectionFromPlayerInputs()
     {
         Vector3 movementDirection = Vector3.zero;
 
-        // read keyboard inputs to determine which direction to move in.
-
-        if (Input.GetKey(MoveUpKey))
+        if (transform.rotation.eulerAngles.y == 0)
         {
-            movementDirection += transform.forward;
-            col_pos.Set(rb.position.x, rb.position.y, rb.position.z + 2); //for collectable's position
+            movementDirection = DoorOrientationMovement(movementDirection, false);  
         }
-        if (Input.GetKey(MoveLeftKey))
+        if (transform.rotation.eulerAngles.y == 90)
         {
-            movementDirection -= transform.right;
-            col_pos.Set(rb.position.x - 2, rb.position.y, rb.position.z);
-
+            movementDirection = DoorOrientationMovement(movementDirection, true);  
         }
-        if (Input.GetKey(MoveDownKey))
-        {
-            movementDirection -= transform.forward;
-            col_pos.Set(rb.position.x, rb.position.y, rb.position.z - 2);
-
-        }
-        if (Input.GetKey(MoveRightKey))
-        {
-            movementDirection += transform.right;
-            col_pos.Set(rb.position.x + 2, rb.position.y, rb.position.z);
-
-        }
-        //movementDirection += Input.GetAxis("P" + PlayerNumber.ToString() + "Horizontal") * transform.right;
-        //movementDirection += Input.GetAxis("P" + PlayerNumber.ToString() + "Vertical") * transform.forward;
-
-
         return movementDirection;
     }
 
@@ -83,6 +119,23 @@ public class ShieldMovement : MonoBehaviour
             CurrentMovementDirection *= MovementForce;
         }
         rb.velocity = new Vector3(CurrentMovementDirection.x, rb.velocity.y, CurrentMovementDirection.z);
+    }
+
+    public void SetUpKey(KeyCode code)
+    {
+        MoveUpKey = code;
+    }
+    public void SetDownKey(KeyCode code)
+    {
+        MoveDownKey = code;
+    }
+    public void SetLeftKey(KeyCode code)
+    {
+        MoveLeftKey = code;
+    }
+    public void SetRightKey(KeyCode code)
+    {
+        MoveRightKey = code;
     }
 
 

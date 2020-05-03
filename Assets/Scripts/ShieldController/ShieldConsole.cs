@@ -20,6 +20,10 @@ public class ShieldConsole : MonoBehaviour
                 if (PlayerIsControlled == true)
                 {
                     field.GetComponent<ShieldMovement>().enabled = true;
+                    field.GetComponent<ShieldMovement>().SetUpKey(playerController.getUpKeyCode());
+                    field.GetComponent<ShieldMovement>().SetDownKey(playerController.getDownKeyCode());
+                    field.GetComponent<ShieldMovement>().SetLeftKey(playerController.getLeftKeyCode());
+                    field.GetComponent<ShieldMovement>().SetRightKey(playerController.getRightKeyCode());
                     PlayerIsControlled = false;
                     render.material.color = Color.green;
 
