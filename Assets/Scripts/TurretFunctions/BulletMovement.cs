@@ -25,7 +25,6 @@ public class BulletMovement : MonoBehaviour
         if (this.CompareTag("KillBullet"))
         {
             //moves bullet forward
-            //transform.position += transform.forward * Time.deltaTime * 0f;
             transform.position = Vector3.MoveTowards(transform.position, pos.position, 20f * Time.deltaTime);
         }
     }
