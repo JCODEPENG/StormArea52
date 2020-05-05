@@ -21,45 +21,46 @@ public class ShieldMovement : MonoBehaviour
             if (Input.GetKey(MoveUpKey))
             {
                 movementDirection += transform.forward;
-                //col_pos.Set(rb.position.x, rb.position.y, rb.position.z + 2); //for collectable's position
+                col_pos.Set(rb.position.x, rb.position.y, rb.position.z + 2); //for collectable's position
             }
             if (Input.GetKey(MoveLeftKey))
             {
                 movementDirection -= transform.right;
-                //col_pos.Set(rb.position.x - 2, rb.position.y, rb.position.z);
+                col_pos.Set(rb.position.x - 2, rb.position.y, rb.position.z);
 
             }
             if (Input.GetKey(MoveDownKey))
             {
                 movementDirection -= transform.forward;
-                //col_pos.Set(rb.position.x, rb.position.y, rb.position.z - 2);
+                col_pos.Set(rb.position.x, rb.position.y, rb.position.z - 2);
 
             }
             if (Input.GetKey(MoveRightKey))
             {
                 movementDirection += transform.right;
-                //col_pos.Set(rb.position.x + 2, rb.position.y, rb.position.z);
+                col_pos.Set(rb.position.x + 2, rb.position.y, rb.position.z);
 
             }
             return movementDirection;
         }
         else
         {
+            Debug.Log("heelow world");
             if (Input.GetKey(MoveUpKey))
             {
                 movementDirection -= transform.right;
-                //col_pos.Set(rb.position.x, rb.position.y, rb.position.z + 2); //for collectable's position
+                col_pos.Set(rb.position.x, rb.position.y, rb.position.z + 2); //for collectable's position
             }
             if (Input.GetKey(MoveLeftKey))
             {
                 movementDirection -= transform.forward;
-                //col_pos.Set(rb.position.x - 2, rb.position.y, rb.position.z);
+                col_pos.Set(rb.position.x - 2, rb.position.y, rb.position.z);
 
             }
             if (Input.GetKey(MoveDownKey))
             {
                 movementDirection += transform.right;
-                //col_pos.Set(rb.position.x, rb.position.y, rb.position.z - 2);
+                col_pos.Set(rb.position.x, rb.position.y, rb.position.z - 2);
 
             }
             if (Input.GetKey(MoveRightKey))
@@ -85,6 +86,14 @@ public class ShieldMovement : MonoBehaviour
             movementDirection = DoorOrientationMovement(movementDirection, true);  
         }
         return movementDirection;
+    }
+
+    private void OnCollisionEnter (Collision other)
+    {
+        if (other.gameObject.CompareTag("col"))
+        {
+            Physics.IgnoreCollision(other.collider, rb.GetComponent<Collider>());
+        }
     }
 
     // Start is called before the first frame update
