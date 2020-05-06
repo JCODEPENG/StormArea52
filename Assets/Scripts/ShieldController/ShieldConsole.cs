@@ -7,7 +7,6 @@ public class ShieldConsole : MonoBehaviour
     public GameObject field; //any object which will be activated/deactivated
     public bool PlayerIsControlled = true;
     
-    //public ShieldMovement Controller;
     void OnTriggerStay(Collider player)
     {
         
