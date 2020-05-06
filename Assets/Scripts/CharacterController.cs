@@ -173,6 +173,7 @@ public class CharacterController : MonoBehaviour
             Debug.Log(score);
 
         }
+
         if (coll.gameObject.CompareTag("Player"))
         {
             // revive other player is able to
@@ -190,5 +191,22 @@ public class CharacterController : MonoBehaviour
     {
         isKnockedDown = false;
         PlayerUIObject.SetActive(false);
+    }
+
+    public KeyCode getUpKeyCode()
+    {
+        return MoveUpKey;
+    }
+    public KeyCode getDownKeyCode()
+    {
+        return MoveDownKey;
+    }
+    public KeyCode getLeftKeyCode()
+    {
+        return MoveLeftKey;
+    }
+    public KeyCode getRightKeyCode()
+    {
+        return MoveRightKey;
     }
 }
