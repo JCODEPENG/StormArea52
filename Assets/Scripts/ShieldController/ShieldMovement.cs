@@ -45,7 +45,6 @@ public class ShieldMovement : MonoBehaviour
         }
         else
         {
-            Debug.Log("heelow world");
             if (Input.GetKey(MoveUpKey))
             {
                 movementDirection -= transform.right;
